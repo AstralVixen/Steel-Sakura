@@ -1,0 +1,14 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "desert",
+    "cherry_grove",
+    "steelandsakura:amplified_cherry_grove"
+  ],
+  "spawners": {
+    "type": "steelandsakura:kin_samurai",
+    "weight": 100,
+    "minCount": 4,
+    "maxCount": 9
+  }
+}

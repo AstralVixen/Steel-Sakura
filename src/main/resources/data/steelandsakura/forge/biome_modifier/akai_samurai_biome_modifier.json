@@ -1,0 +1,14 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "desert",
+    "savanna",
+    "savanna_plateau"
+  ],
+  "spawners": {
+    "type": "steelandsakura:akai_samurai",
+    "weight": 90,
+    "minCount": 5,
+    "maxCount": 8
+  }
+}

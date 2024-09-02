@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "steelandsakura:rune_of_midori"
+    },
+    "title": {
+      "translate": "advancements.midori_hunter.title"
+    },
+    "description": {
+      "translate": "advancements.midori_hunter.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "midori_hunter_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "steelandsakura:rune_of_midori"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "steelandsakura:begin_journey"
+}

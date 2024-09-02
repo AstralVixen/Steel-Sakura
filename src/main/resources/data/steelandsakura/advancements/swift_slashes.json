@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "steelandsakura:composite_katana"
+    },
+    "title": {
+      "translate": "advancements.swift_slashes.title"
+    },
+    "description": {
+      "translate": "advancements.swift_slashes.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "swift_slashes_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "steelandsakura:composite_katana"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 4
+  },
+  "parent": "steelandsakura:get_tamahagane"
+}

@@ -1,0 +1,43 @@
+{
+  "_fv": 60,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "aonami_no_tsurugi",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Aonami no Tsurugi",
+    "specialInformation": {
+      "fixedValue": [
+        "Sword of the Azure Wave",
+        " Crafted with the essence of the deep ocean, this katana is revered by the Aoi Clan."
+      ]
+    },
+    "creativeTab": {
+      "value": "CUSTOM:SteelAndSakura"
+    },
+    "harvestLevel": 3,
+    "efficiency": 4.0,
+    "attackSpeed": 1.0,
+    "enchantability": 15,
+    "damageVsEntity": 10.0,
+    "usageCount": 250,
+    "blocksAffected": [],
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:Tamahagane"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "AonaminoTsurugiLivingEntityIsHitWithTool"
+    }
+  }
+}

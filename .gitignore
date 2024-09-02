@@ -1,0 +1,13 @@
+/.gradle/
+/.mcreator/
+/.settings/
+.gradle/
+/build.gradle
+/gradle.properties
+/gradlew
+/gradlew.bat
+/mcreator.gradle
+/settings.gradle
+/.classpath
+/build/
+/run/

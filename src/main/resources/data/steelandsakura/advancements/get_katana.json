@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "steelandsakura:iron_katana"
+    },
+    "title": {
+      "translate": "advancements.get_katana.title"
+    },
+    "description": {
+      "translate": "advancements.get_katana.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "get_katana_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "steelandsakura:iron_katana"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 5
+  },
+  "parent": "steelandsakura:get_tamahagane"
+}

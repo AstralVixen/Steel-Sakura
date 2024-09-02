@@ -1,0 +1,37 @@
+{
+  "_fv": 60,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "composite_katana",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Composite Katana",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTab": {
+      "value": "CUSTOM:SteelAndSakura"
+    },
+    "harvestLevel": 2,
+    "efficiency": 4.0,
+    "attackSpeed": 3.0,
+    "enchantability": 16,
+    "damageVsEntity": 8.0,
+    "usageCount": 150,
+    "blocksAffected": [],
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:Tamahagane"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

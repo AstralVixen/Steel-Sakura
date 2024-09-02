@@ -1,0 +1,39 @@
+{
+  "_fv": 60,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "wooden-katana",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Wooden Katana",
+    "specialInformation": {
+      "fixedValue": [
+        "Used for ceremonies"
+      ]
+    },
+    "creativeTab": {
+      "value": "CUSTOM:SteelAndSakura"
+    },
+    "harvestLevel": 0,
+    "efficiency": 2.0,
+    "attackSpeed": 1.0,
+    "enchantability": 6,
+    "damageVsEntity": 6.0,
+    "usageCount": 100,
+    "blocksAffected": [],
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "Blocks.LOG"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

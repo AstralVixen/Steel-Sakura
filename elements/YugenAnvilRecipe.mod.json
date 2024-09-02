@@ -1,0 +1,48 @@
+{
+  "_fv": 60,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.CHERRY_SAPLING"
+      },
+      {
+        "value": "CUSTOM:Tamahagane"
+      },
+      {
+        "value": "Blocks.CHERRY_SAPLING"
+      },
+      {
+        "value": "CUSTOM:SpiritEssence"
+      },
+      {
+        "value": "Blocks.ANVIL#0"
+      },
+      {
+        "value": "CUSTOM:SpiritEssence"
+      },
+      {
+        "value": "Items.AMETHYST_SHARD"
+      },
+      {
+        "value": "CUSTOM:Tamahagane"
+      },
+      {
+        "value": "Items.AMETHYST_SHARD"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:YugenAnvil"
+    },
+    "name": "yugen_anvil_recipe",
+    "namespace": "mod"
+  }
+}

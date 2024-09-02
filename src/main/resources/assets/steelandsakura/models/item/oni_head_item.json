@@ -1,0 +1,7 @@
+{
+  "parent": "steelandsakura:custom/onihead",
+  "textures": {
+    "0": "steelandsakura:block/onihead",
+    "particle": "steelandsakura:item/oni_head"
+  }
+}

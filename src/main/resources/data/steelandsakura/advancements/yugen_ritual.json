@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "steelandsakura:yungen_katana"
+    },
+    "title": {
+      "translate": "advancements.yugen_ritual.title"
+    },
+    "description": {
+      "translate": "advancements.yugen_ritual.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "yugen_ritual_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 4
+  },
+  "parent": "steelandsakura:yungen_anvil"
+}

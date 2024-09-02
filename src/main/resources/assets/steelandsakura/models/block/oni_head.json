@@ -1,0 +1,9 @@
+{
+  "parent": "steelandsakura:custom/onihead",
+  "textures": {
+    "all": "steelandsakura:block/onihead",
+    "particle": "steelandsakura:block/onihead",
+    "0": "steelandsakura:block/onihead"
+  },
+  "render_type": "solid"
+}

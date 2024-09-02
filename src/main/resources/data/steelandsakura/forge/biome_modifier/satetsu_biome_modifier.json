@@ -1,0 +1,14 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "beach",
+    "river",
+    "ocean",
+    "cold_ocean",
+    "deep_cold_ocean",
+    "desert",
+    "plains"
+  ],
+  "features": "steelandsakura:satetsu",
+  "step": "underground_ores"
+}

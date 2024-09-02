@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "steelandsakura:block/satetsu",
+    "up": "steelandsakura:block/satetsu",
+    "north": "steelandsakura:block/satetsu",
+    "east": "steelandsakura:block/satetsu",
+    "south": "steelandsakura:block/satetsu",
+    "west": "steelandsakura:block/satetsu",
+    "particle": "steelandsakura:block/satetsu"
+  },
+  "render_type": "solid"
+}

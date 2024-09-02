@@ -1,0 +1,11 @@
+{
+  "yurei": {
+    "subtitle": "subtitles.yurei",
+    "sounds": [
+      {
+        "name": "steelandsakura:yurei_livng",
+        "stream": false
+      }
+    ]
+  }
+}

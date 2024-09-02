@@ -1,0 +1,48 @@
+{
+  "_fv": 60,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.CLAY_BALL"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.CLAY_BALL"
+      },
+      {
+        "value": "Blocks.BLAST_FURNACE"
+      },
+      {
+        "value": "Items.CLAY_BALL"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.CLAY_BALL"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Tatara"
+    },
+    "name": "tatara_recipe",
+    "namespace": "mod"
+  }
+}

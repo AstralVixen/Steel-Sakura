@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "abc",
+    "abc",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:iron_ingot"
+    },
+    "b": {
+      "item": "steelandsakura:tamahagane"
+    },
+    "c": {
+      "item": "minecraft:raw_iron"
+    }
+  },
+  "result": {
+    "item": "steelandsakura:heavy_katana",
+    "count": 1
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "steelandsakura:yugen_anvil"
+    },
+    "title": {
+      "translate": "advancements.yungen_anvil.title"
+    },
+    "description": {
+      "translate": "advancements.yungen_anvil.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "yungen_anvil_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "steelandsakura:yugen_anvil"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "steelandsakura:begin_journey"
+}

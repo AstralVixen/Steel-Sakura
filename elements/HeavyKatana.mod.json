@@ -1,0 +1,37 @@
+{
+  "_fv": 60,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "heavy_katana",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Heavy Katana",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTab": {
+      "value": "CUSTOM:SteelAndSakura"
+    },
+    "harvestLevel": 2,
+    "efficiency": 4.0,
+    "attackSpeed": 0.7,
+    "enchantability": 17,
+    "damageVsEntity": 19.0,
+    "usageCount": 100,
+    "blocksAffected": [],
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:Tamahagane"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

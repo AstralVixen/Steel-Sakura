@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "top": "anvil",
+        "body": "anvil"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    " a ",
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:clay_ball"
+    },
+    "b": {
+      "item": "minecraft:blast_furnace"
+    }
+  },
+  "result": {
+    "item": "steelandsakura:tatara",
+    "count": 1
+  }
+}

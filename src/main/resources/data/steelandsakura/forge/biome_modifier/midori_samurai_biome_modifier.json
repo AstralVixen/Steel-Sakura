@@ -1,0 +1,15 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "jungle",
+    "bamboo_jungle",
+    "sparse_jungle",
+    "swamp"
+  ],
+  "spawners": {
+    "type": "steelandsakura:midori_samurai",
+    "weight": 90,
+    "minCount": 3,
+    "maxCount": 8
+  }
+}

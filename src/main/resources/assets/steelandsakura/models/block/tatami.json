@@ -1,0 +1,9 @@
+{
+  "parent": "steelandsakura:custom/tatami",
+  "textures": {
+    "all": "steelandsakura:block/tatami-alone",
+    "particle": "steelandsakura:block/tatami-alone",
+    "0": "steelandsakura:block/tatami-middle"
+  },
+  "render_type": "solid"
+}

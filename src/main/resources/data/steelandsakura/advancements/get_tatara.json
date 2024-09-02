@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "steelandsakura:tatara"
+    },
+    "title": {
+      "translate": "advancements.get_tatara.title"
+    },
+    "description": {
+      "translate": "advancements.get_tatara.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "get_tatara_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "steelandsakura:tatara"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 3
+  },
+  "parent": "steelandsakura:begin_journey"
+}

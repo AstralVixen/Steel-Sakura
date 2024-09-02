@@ -1,0 +1,43 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "steelandsakura:icon"
+    },
+    "title": {
+      "translate": "advancements.begin_journey.title"
+    },
+    "description": {
+      "translate": "advancements.begin_journey.descr"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "begin_journey_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "steelandsakura:the_shoguns_manual"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "steelandsakura:tatara_recipe",
+      "steelandsakura:shogun_manual_recipe"
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "_fv": 60,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_your_dan",
+          "text": {
+            "fixedValue": "Your Dan"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 192,
+          "y": 41
+        }
+      },
+      {
+        "type": "entitymodel",
+        "data": {
+          "entityModel": {
+            "name": "GetPlayerModel"
+          },
+          "scale": 30,
+          "rotationX": 0,
+          "followMouseMovement": true,
+          "x": 142,
+          "y": 136
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_get_stats",
+          "text": {
+            "fixedValue": "",
+            "name": "GetStats"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 231,
+          "y": 107
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

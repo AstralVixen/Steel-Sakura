@@ -1,0 +1,9 @@
+{
+  "parent": "steelandsakura:custom/tatara",
+  "textures": {
+    "all": "steelandsakura:block/tatara",
+    "particle": "steelandsakura:block/tatara",
+    "0": "steelandsakura:block/tatara"
+  },
+  "render_type": "solid"
+}

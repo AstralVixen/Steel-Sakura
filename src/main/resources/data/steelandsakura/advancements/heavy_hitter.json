@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "steelandsakura:heavy_katana"
+    },
+    "title": {
+      "translate": "advancements.heavy_hitter.title"
+    },
+    "description": {
+      "translate": "advancements.heavy_hitter.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "heavy_hitter_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "steelandsakura:composite_katana"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 4
+  },
+  "parent": "steelandsakura:get_tamahagane"
+}

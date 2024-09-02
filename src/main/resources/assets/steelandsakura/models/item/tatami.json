@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "steelandsakura:item/tatami-middle"
+  },
+  "render_type": "translucent"
+}

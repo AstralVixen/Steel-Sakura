@@ -1,0 +1,105 @@
+{
+  "_fv": 60,
+  "_type": "biome",
+  "definition": {
+    "name": "Weeping Cherry Grove",
+    "groundBlock": {
+      "value": "Blocks.GRASS"
+    },
+    "undergroundBlock": {
+      "value": "Blocks.STONE#0"
+    },
+    "underwaterBlock": {
+      "value": "Blocks.SAND#0"
+    },
+    "grassColor": {
+      "value": -13057,
+      "falpha": 0.0
+    },
+    "ambientSound": {
+      "value": ""
+    },
+    "additionsSound": {
+      "value": ""
+    },
+    "music": {
+      "value": ""
+    },
+    "moodSound": {
+      "value": ""
+    },
+    "moodSoundDelay": 6000,
+    "spawnParticles": true,
+    "particleToSpawn": {
+      "value": "CHERRY_LEAVES"
+    },
+    "particlesProbability": 0.9,
+    "rainingPossibility": 0.5,
+    "temperature": 1.0,
+    "spawnBiome": true,
+    "spawnInCaves": false,
+    "spawnBiomeNether": false,
+    "genTemperature": {
+      "min": -3.0000000000000003E-4,
+      "max": 0.6016
+    },
+    "genHumidity": {
+      "min": 0.20359999999999998,
+      "max": 0.9035
+    },
+    "genContinentalness": {
+      "min": 0.1014,
+      "max": 0.7015
+    },
+    "genErosion": {
+      "min": -0.30419999999999997,
+      "max": 0.39990000000000003
+    },
+    "genWeirdness": {
+      "min": -0.3,
+      "max": 0.7
+    },
+    "treesPerChunk": 3,
+    "vanillaTreeType": "Mega spruce trees",
+    "treeType": 1,
+    "minHeight": 9,
+    "treeStem": {
+      "value": "Blocks.CHERRY_LOG"
+    },
+    "treeBranch": {
+      "value": "Blocks.CHERRY_LEAVES"
+    },
+    "treeVines": {
+      "value": "Blocks.CHERRY_LEAVES"
+    },
+    "treeFruits": {
+      "value": "Blocks.AIR"
+    },
+    "defaultFeatures": [
+      "Caves",
+      "Ores",
+      "AmethystGeodes"
+    ],
+    "spawnStronghold": false,
+    "spawnMineshaft": false,
+    "spawnMineshaftMesa": false,
+    "spawnPillagerOutpost": false,
+    "villageType": "plains",
+    "spawnWoodlandMansion": false,
+    "spawnJungleTemple": false,
+    "spawnDesertPyramid": false,
+    "spawnSwampHut": false,
+    "spawnIgloo": false,
+    "spawnOceanMonument": false,
+    "spawnShipwreck": false,
+    "spawnShipwreckBeached": false,
+    "spawnBuriedTreasure": false,
+    "oceanRuinType": "NONE",
+    "spawnNetherBridge": false,
+    "spawnNetherFossil": false,
+    "spawnBastionRemnant": false,
+    "spawnEndCity": false,
+    "spawnRuinedPortal": "NONE",
+    "spawnEntries": []
+  }
+}

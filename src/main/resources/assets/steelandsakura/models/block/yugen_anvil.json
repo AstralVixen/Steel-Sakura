@@ -1,0 +1,10 @@
+{
+  "parent": "steelandsakura:custom/yugen_anvil",
+  "textures": {
+    "all": "steelandsakura:block/anvil",
+    "particle": "steelandsakura:block/anvil",
+    "top": "steelandsakura:block/anvil",
+    "body": "steelandsakura:block/anvil"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "item": "steelandsakura:tamahagane"
+    },
+    "title": {
+      "translate": "advancements.get_tamahagane.title"
+    },
+    "description": {
+      "translate": "advancements.get_tamahagane.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "get_tamahagane_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "steelandsakura:tamahagane"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 5,
+    "recipes": [
+      "steelandsakura:iron_katana_recipe",
+      "steelandsakura:composite_katana_recipe",
+      "steelandsakura:serrated_katana_recipe",
+      "steelandsakura:heavy_katana_recipe"
+    ]
+  },
+  "parent": "steelandsakura:get_satetsu"
+}

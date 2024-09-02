@@ -1,0 +1,16 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "ice_spikes",
+    "frozen_river",
+    "frozen_peaks",
+    "snowy_slopes",
+    "snowy_taiga"
+  ],
+  "spawners": {
+    "type": "steelandsakura:frost_oni",
+    "weight": 25,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

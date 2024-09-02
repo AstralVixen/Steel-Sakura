@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "steelandsakura:rune_of_kin"
+    },
+    "title": {
+      "translate": "advancements.kin_hunter.title"
+    },
+    "description": {
+      "translate": "advancements.kin_hunter.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "kin_hunter_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "steelandsakura:rune_of_kin"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "steelandsakura:begin_journey"
+}

@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aba",
+    "cdc",
+    "ebe"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:cherry_sapling"
+    },
+    "b": {
+      "item": "steelandsakura:tamahagane"
+    },
+    "c": {
+      "item": "steelandsakura:spirit_essence"
+    },
+    "d": {
+      "item": "minecraft:anvil"
+    },
+    "e": {
+      "item": "minecraft:amethyst_shard"
+    }
+  },
+  "result": {
+    "item": "steelandsakura:yugen_anvil",
+    "count": 1
+  }
+}

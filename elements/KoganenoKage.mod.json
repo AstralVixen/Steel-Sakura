@@ -1,0 +1,43 @@
+{
+  "_fv": 60,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "kogane_no_kage",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Kogane no Kage",
+    "specialInformation": {
+      "fixedValue": [
+        "Shadow of the Golden Sun",
+        "Emblazoned with the radiance of the sun, this katana represents the wealth and power of the Kin Clan."
+      ]
+    },
+    "creativeTab": {
+      "value": "CUSTOM:SteelAndSakura"
+    },
+    "harvestLevel": 3,
+    "efficiency": 4.0,
+    "attackSpeed": 1.0,
+    "enchantability": 15,
+    "damageVsEntity": 10.0,
+    "usageCount": 250,
+    "blocksAffected": [],
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:Tamahagane"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "KoganenoKageLivingEntityIsHitWithTool"
+    }
+  }
+}

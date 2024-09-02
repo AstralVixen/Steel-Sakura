@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "item": "steelandsakura:oni_head_item"
+    },
+    "title": {
+      "translate": "advancements.kill_oni.title"
+    },
+    "description": {
+      "translate": "advancements.kill_oni.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "kill_oni_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "steelandsakura:spirit_essence"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 3,
+    "recipes": [
+      "steelandsakura:yugen_anvil_recipe"
+    ]
+  },
+  "parent": "steelandsakura:begin_journey"
+}
