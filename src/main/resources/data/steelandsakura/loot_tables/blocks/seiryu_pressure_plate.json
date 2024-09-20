@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "steelandsakura:blocks/seiryu_pressure_plate",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "steelandsakura:seiryu_pressure_plate"
+        }
+      ]
+    }
+  ]
+}

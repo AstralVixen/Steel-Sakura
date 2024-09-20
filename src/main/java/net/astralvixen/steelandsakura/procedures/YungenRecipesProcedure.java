@@ -83,25 +83,32 @@ public class YungenRecipesProcedure {
 
         BlockPos pos = BlockPos.containing(x, y, z);
 
-        // Recipe 1: Coal Block + Iron Katana + Rune of Akai -> Shinkuno Hono
+        // Recipe 1: Coal Block + Iron Katana + Akai Seal -> Shinkuno Hono
         executeRecipe(world, pos, new ItemStack[]{
             new ItemStack(Blocks.COAL_BLOCK),
             new ItemStack(SteelandsakuraModItems.IRON_KATANA.get()),
-            new ItemStack(SteelandsakuraModItems.RUNE_OF_AKAI.get())
+            new ItemStack(SteelandsakuraModItems.AKAI_SEAL.get())
         }, new ItemStack(SteelandsakuraModItems.SHINKUNO_HONO.get()));
 
-        // Recipe 2: Moss Block + Iron Katana + Rune of Midori -> Midorino Seishin
+        // Recipe 2: Moss Block + Iron Katana + Midori Seal -> Midorino Seishin
         executeRecipe(world, pos, new ItemStack[]{
             new ItemStack(Blocks.MOSS_BLOCK),
             new ItemStack(SteelandsakuraModItems.IRON_KATANA.get()),
-            new ItemStack(SteelandsakuraModItems.RUNE_OF_MIDORI.get())
+            new ItemStack(SteelandsakuraModItems.MIDORI_SEAL.get())
         }, new ItemStack(SteelandsakuraModItems.MIDORINO_SEISHIN.get()));
 
-        // Recipe 3: Gold Ingot + Iron Katana + Rune of Kin -> Koganeno Kage
+         // Recipe 3: Ice Block + Iron Katana + Aoi Seal -> Midorino Seishin
+        executeRecipe(world, pos, new ItemStack[]{
+            new ItemStack(Blocks.ICE),
+            new ItemStack(SteelandsakuraModItems.IRON_KATANA.get()),
+            new ItemStack(SteelandsakuraModItems.AOI_SEAL.get())
+        }, new ItemStack(SteelandsakuraModItems.AONAMINO_TSURUGI.get()));
+
+        // Recipe 4: Gold Ingot + Iron Katana +  Kin SEAL -> Koganeno Kage
         executeRecipe(world, pos, new ItemStack[]{
             new ItemStack(Blocks.GOLD_BLOCK),
             new ItemStack(SteelandsakuraModItems.IRON_KATANA.get()),
-            new ItemStack(SteelandsakuraModItems.RUNE_OF_KIN.get())
+            new ItemStack(SteelandsakuraModItems.KIN_SEAL.get())
         }, new ItemStack(SteelandsakuraModItems.KOGANENO_KAGE.get()));
     }
 }

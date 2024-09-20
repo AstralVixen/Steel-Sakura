@@ -11,7 +11,7 @@ public class MidorinoSeishinLivingEntityIsHitWithToolProcedure {
 			return;
 		if (Math.random() < 0.3) {
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-				_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 120, 1, false, false));
+				_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 160, 255, false, false));
 		}
 	}
 }

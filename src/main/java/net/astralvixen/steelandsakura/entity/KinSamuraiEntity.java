@@ -102,7 +102,7 @@ public class KinSamuraiEntity extends PathfinderMob {
 
 	protected void dropCustomDeathLoot(DamageSource source, int looting, boolean recentlyHitIn) {
 		super.dropCustomDeathLoot(source, looting, recentlyHitIn);
-		this.spawnAtLocation(new ItemStack(SteelandsakuraModItems.RUNE_OF_KIN.get()));
+		this.spawnAtLocation(new ItemStack(SteelandsakuraModItems.KIN_SEAL.get()));
 	}
 
 	@Override

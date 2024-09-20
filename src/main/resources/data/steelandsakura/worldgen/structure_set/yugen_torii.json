@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "steelandsakura:yugen_torii",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 200,
+    "separation": 150,
+    "salt": 1707275164
+  }
+}

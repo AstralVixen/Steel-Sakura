@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "steelandsakura:seiryu_glade",
+  "features": "steelandsakura:seiryu_flowers",
+  "step": "vegetal_decoration"
+}

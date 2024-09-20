@@ -7,5 +7,45 @@
         "stream": false
       }
     ]
+  },
+  "memeto_mori": {
+    "sounds": [
+      {
+        "name": "steelandsakura:memento_mori",
+        "stream": false
+      }
+    ]
+  },
+  "flute_1": {
+    "sounds": [
+      {
+        "name": "steelandsakura:flute_1",
+        "stream": false
+      }
+    ]
+  },
+  "flute_2": {
+    "sounds": [
+      {
+        "name": "steelandsakura:flute_2",
+        "stream": false
+      }
+    ]
+  },
+  "gong": {
+    "sounds": [
+      {
+        "name": "steelandsakura:gong",
+        "stream": false
+      }
+    ]
+  },
+  "seiryu_ambience": {
+    "sounds": [
+      {
+        "name": "steelandsakura:seiryu_ambience",
+        "stream": false
+      }
+    ]
   }
 }

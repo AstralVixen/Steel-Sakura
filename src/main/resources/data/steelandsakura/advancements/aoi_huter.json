@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "steelandsakura:rune_of_aoi"
+      "item": "steelandsakura:aoi_seal"
     },
     "title": {
       "translate": "advancements.aoi_huter.title"
@@ -21,7 +21,7 @@
         "items": [
           {
             "items": [
-              "steelandsakura:rune_of_aoi"
+              "steelandsakura:aoi_seal"
             ],
             "count": {
               "min": 1,

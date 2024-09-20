@@ -10,7 +10,7 @@
   ],
   "spawners": {
     "type": "steelandsakura:aoi_samurai",
-    "weight": 90,
+    "weight": 95,
     "minCount": 3,
     "maxCount": 8
   }

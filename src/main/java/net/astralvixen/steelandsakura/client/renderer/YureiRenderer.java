@@ -12,7 +12,7 @@ import net.astralvixen.steelandsakura.entity.YureiEntity;
 
 public class YureiRenderer extends HumanoidMobRenderer<YureiEntity, HumanoidModel<YureiEntity>> {
 	public YureiRenderer(EntityRendererProvider.Context context) {
-		super(context, new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER)), 0f);
+		super(context, new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER)), 0.5f);
 		this.addLayer(new HumanoidArmorLayer(this, new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_INNER_ARMOR)), new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_OUTER_ARMOR)), context.getModelManager()));
 	}
 

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "planks",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "steelandsakura:seiryu_wood"
+    }
+  ],
+  "result": {
+    "item": "steelandsakura:seiryu_planks",
+    "count": 4
+  }
+}

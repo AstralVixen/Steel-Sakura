@@ -7,7 +7,7 @@
   ],
   "spawners": {
     "type": "steelandsakura:kin_samurai",
-    "weight": 100,
+    "weight": 110,
     "minCount": 4,
     "maxCount": 9
   }

@@ -12,7 +12,7 @@ public class SerratedKatanaLivingEntityIsHitWithToolProcedure {
 			return;
 		if (Math.random() < 0.6) {
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-				_entity.addEffect(new MobEffectInstance(SteelandsakuraModMobEffects.BLEED.get(), 140, 1, false, false));
+				_entity.addEffect(new MobEffectInstance(SteelandsakuraModMobEffects.BLEED.get(), 600, 1, false, false));
 		}
 	}
 }

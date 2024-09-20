@@ -7,7 +7,7 @@ public class ShinkunoHonoLivingEntityIsHitWithToolProcedure {
 		if (entity == null)
 			return;
 		if (Math.random() < 0.3) {
-			entity.setSecondsOnFire(2);
+			entity.setSecondsOnFire(4);
 		}
 	}
 }

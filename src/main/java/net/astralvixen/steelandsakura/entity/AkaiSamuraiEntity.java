@@ -101,7 +101,7 @@ public class AkaiSamuraiEntity extends PathfinderMob {
 
 	protected void dropCustomDeathLoot(DamageSource source, int looting, boolean recentlyHitIn) {
 		super.dropCustomDeathLoot(source, looting, recentlyHitIn);
-		this.spawnAtLocation(new ItemStack(SteelandsakuraModItems.RUNE_OF_AKAI.get()));
+		this.spawnAtLocation(new ItemStack(SteelandsakuraModItems.AKAI_SEAL.get()));
 	}
 
 	@Override

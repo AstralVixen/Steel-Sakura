@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "wooden_button",
+  "category": "redstone",
+  "ingredients": [
+    {
+      "item": "steelandsakura:seiryu_planks"
+    }
+  ],
+  "result": {
+    "item": "steelandsakura:seiryu_button",
+    "count": 1
+  }
+}

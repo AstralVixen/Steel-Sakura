@@ -13,7 +13,7 @@ public class CompositeKatanaItem extends SwordItem {
 	public CompositeKatanaItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 150;
+				return 225;
 			}
 
 			public float getSpeed() {

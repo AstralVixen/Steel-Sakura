@@ -11,7 +11,10 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.astralvixen.steelandsakura.client.renderer.YureiRenderer;
 import net.astralvixen.steelandsakura.client.renderer.TekeTekeRenderer;
+import net.astralvixen.steelandsakura.client.renderer.SpiritualMirrorCloneRenderer;
 import net.astralvixen.steelandsakura.client.renderer.ShirokamiRenderer;
+import net.astralvixen.steelandsakura.client.renderer.RoninRenderer;
+import net.astralvixen.steelandsakura.client.renderer.OnryonoShogunRenderer;
 import net.astralvixen.steelandsakura.client.renderer.OniRenderer;
 import net.astralvixen.steelandsakura.client.renderer.MidoriSamuraiRenderer;
 import net.astralvixen.steelandsakura.client.renderer.KinSamuraiRenderer;
@@ -34,5 +37,8 @@ public class SteelandsakuraModEntityRenderers {
 		event.registerEntityRenderer(SteelandsakuraModEntities.KIN_SAMURAI.get(), KinSamuraiRenderer::new);
 		event.registerEntityRenderer(SteelandsakuraModEntities.YUREI.get(), YureiRenderer::new);
 		event.registerEntityRenderer(SteelandsakuraModEntities.TEKE_TEKE.get(), TekeTekeRenderer::new);
+		event.registerEntityRenderer(SteelandsakuraModEntities.RONIN.get(), RoninRenderer::new);
+		event.registerEntityRenderer(SteelandsakuraModEntities.ONRYONO_SHOGUN.get(), OnryonoShogunRenderer::new);
+		event.registerEntityRenderer(SteelandsakuraModEntities.SPIRITUAL_MIRROR_CLONE.get(), SpiritualMirrorCloneRenderer::new);
 	}
 }

@@ -9,7 +9,7 @@
   ],
   "spawners": {
     "type": "steelandsakura:frost_oni",
-    "weight": 25,
+    "weight": 55,
     "minCount": 1,
     "maxCount": 1
   }

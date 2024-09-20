@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "steelandsakura:seiryu_fence"
+    },
+    "title": {
+      "translate": "advancements.yugen_torii_enter.title"
+    },
+    "description": {
+      "translate": "advancements.yugen_torii_enter.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "yugen_torii_enter_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "steelandsakura:begin_journey"
+}

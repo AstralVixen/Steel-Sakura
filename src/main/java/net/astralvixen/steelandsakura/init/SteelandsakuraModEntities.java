@@ -18,7 +18,10 @@ import net.minecraft.world.entity.Entity;
 
 import net.astralvixen.steelandsakura.entity.YureiEntity;
 import net.astralvixen.steelandsakura.entity.TekeTekeEntity;
+import net.astralvixen.steelandsakura.entity.SpiritualMirrorCloneEntity;
 import net.astralvixen.steelandsakura.entity.ShirokamiEntity;
+import net.astralvixen.steelandsakura.entity.RoninEntity;
+import net.astralvixen.steelandsakura.entity.OnryonoShogunEntity;
 import net.astralvixen.steelandsakura.entity.OniEntity;
 import net.astralvixen.steelandsakura.entity.MidoriSamuraiEntity;
 import net.astralvixen.steelandsakura.entity.KinSamuraiEntity;
@@ -60,13 +63,22 @@ public class SteelandsakuraModEntities {
 
 					.sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<YureiEntity>> YUREI = register("yurei",
-			EntityType.Builder.<YureiEntity>of(YureiEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(YureiEntity::new)
-
-					.sized(0f, 0f));
+			EntityType.Builder.<YureiEntity>of(YureiEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(YureiEntity::new).fireImmune().sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<TekeTekeEntity>> TEKE_TEKE = register("teke_teke",
 			EntityType.Builder.<TekeTekeEntity>of(TekeTekeEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(TekeTekeEntity::new)
 
 					.sized(0.6f, 1.1f));
+	public static final RegistryObject<EntityType<RoninEntity>> RONIN = register("ronin",
+			EntityType.Builder.<RoninEntity>of(RoninEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(RoninEntity::new)
+
+					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<OnryonoShogunEntity>> ONRYONO_SHOGUN = register("onryono_shogun", EntityType.Builder.<OnryonoShogunEntity>of(OnryonoShogunEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true)
+			.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(OnryonoShogunEntity::new).fireImmune().sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<SpiritualMirrorCloneEntity>> SPIRITUAL_MIRROR_CLONE = register("spiritual_mirror_clone",
+			EntityType.Builder.<SpiritualMirrorCloneEntity>of(SpiritualMirrorCloneEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+					.setCustomClientFactory(SpiritualMirrorCloneEntity::new)
+
+					.sized(0.6f, 1.9f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -85,6 +97,9 @@ public class SteelandsakuraModEntities {
 			KinSamuraiEntity.init();
 			YureiEntity.init();
 			TekeTekeEntity.init();
+			RoninEntity.init();
+			OnryonoShogunEntity.init();
+			SpiritualMirrorCloneEntity.init();
 		});
 	}
 
@@ -100,5 +115,8 @@ public class SteelandsakuraModEntities {
 		event.put(KIN_SAMURAI.get(), KinSamuraiEntity.createAttributes().build());
 		event.put(YUREI.get(), YureiEntity.createAttributes().build());
 		event.put(TEKE_TEKE.get(), TekeTekeEntity.createAttributes().build());
+		event.put(RONIN.get(), RoninEntity.createAttributes().build());
+		event.put(ONRYONO_SHOGUN.get(), OnryonoShogunEntity.createAttributes().build());
+		event.put(SPIRITUAL_MIRROR_CLONE.get(), SpiritualMirrorCloneEntity.createAttributes().build());
 	}
 }

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "steelandsakura:block/seiryu_log_top",
+    "up": "steelandsakura:block/seiryu_log_top",
+    "north": "steelandsakura:block/seiryu_log_side",
+    "east": "steelandsakura:block/seiryu_log_side",
+    "south": "steelandsakura:block/seiryu_log_side",
+    "west": "steelandsakura:block/seiryu_log_side",
+    "particle": "steelandsakura:block/seiryu_log_top"
+  },
+  "render_type": "solid"
+}

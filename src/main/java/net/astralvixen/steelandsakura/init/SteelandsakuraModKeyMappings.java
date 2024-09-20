@@ -15,6 +15,7 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.KeyMapping;
 
+import net.astralvixen.steelandsakura.network.OpenToriiGUIMessage;
 import net.astralvixen.steelandsakura.network.DanMenuMessage;
 import net.astralvixen.steelandsakura.SteelandsakuraMod;
 
@@ -33,10 +34,24 @@ public class SteelandsakuraModKeyMappings {
 			isDownOld = isDown;
 		}
 	};
+	public static final KeyMapping OPEN_TORII_GUI = new KeyMapping("key.steelandsakura.open_torii_gui", GLFW.GLFW_KEY_I, "key.categories.misc") {
+		private boolean isDownOld = false;
+
+		@Override
+		public void setDown(boolean isDown) {
+			super.setDown(isDown);
+			if (isDownOld != isDown && isDown) {
+				SteelandsakuraMod.PACKET_HANDLER.sendToServer(new OpenToriiGUIMessage(0, 0));
+				OpenToriiGUIMessage.pressAction(Minecraft.getInstance().player, 0, 0);
+			}
+			isDownOld = isDown;
+		}
+	};
 
 	@SubscribeEvent
 	public static void registerKeyMappings(RegisterKeyMappingsEvent event) {
 		event.register(DAN_MENU);
+		event.register(OPEN_TORII_GUI);
 	}
 
 	@Mod.EventBusSubscriber({Dist.CLIENT})
@@ -45,6 +60,7 @@ public class SteelandsakuraModKeyMappings {
 		public static void onClientTick(TickEvent.ClientTickEvent event) {
 			if (Minecraft.getInstance().screen == null) {
 				DAN_MENU.consumeClick();
+				OPEN_TORII_GUI.consumeClick();
 			}
 		}
 	}

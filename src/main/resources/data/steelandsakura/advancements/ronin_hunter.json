@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "item": "steelandsakura:yugen_seal_piece"
+    },
+    "title": {
+      "translate": "advancements.ronin_hunter.title"
+    },
+    "description": {
+      "translate": "advancements.ronin_hunter.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "ronin_hunter_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "steelandsakura:yugen_seal_piece"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 10,
+    "recipes": [
+      "steelandsakura:yugen_seal_recipe"
+    ]
+  },
+  "parent": "steelandsakura:begin_journey"
+}

@@ -13,7 +13,7 @@ public class HeavyKatanaItem extends SwordItem {
 	public HeavyKatanaItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 100;
+				return 200;
 			}
 
 			public float getSpeed() {
@@ -35,6 +35,6 @@ public class HeavyKatanaItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(SteelandsakuraModItems.TAMAHAGANE.get()));
 			}
-		}, 3, -3.3f, new Item.Properties());
+		}, 3, -3.5f, new Item.Properties());
 	}
 }

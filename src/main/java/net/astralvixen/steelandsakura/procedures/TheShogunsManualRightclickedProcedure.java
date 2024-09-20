@@ -13,7 +13,7 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
-import net.astralvixen.steelandsakura.world.inventory.SMP1Menu;
+import net.astralvixen.steelandsakura.world.inventory.ShogunsManualTemplateGUIMenu;
 
 import io.netty.buffer.Unpooled;
 
@@ -26,12 +26,12 @@ public class TheShogunsManualRightclickedProcedure {
 			NetworkHooks.openScreen((ServerPlayer) _ent, new MenuProvider() {
 				@Override
 				public Component getDisplayName() {
-					return Component.literal("SMP1");
+					return Component.literal("ShogunsManualTemplateGUI");
 				}
 
 				@Override
 				public AbstractContainerMenu createMenu(int id, Inventory inventory, Player player) {
-					return new SMP1Menu(id, inventory, new FriendlyByteBuf(Unpooled.buffer()).writeBlockPos(_bpos));
+					return new ShogunsManualTemplateGUIMenu(id, inventory, new FriendlyByteBuf(Unpooled.buffer()).writeBlockPos(_bpos));
 				}
 			}, _bpos);
 		}

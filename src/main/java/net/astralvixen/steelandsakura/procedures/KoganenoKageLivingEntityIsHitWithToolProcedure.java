@@ -6,12 +6,12 @@ import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.effect.MobEffectInstance;
 
 public class KoganenoKageLivingEntityIsHitWithToolProcedure {
-	public static void execute(Entity entity) {
-		if (entity == null)
+	public static void execute(Entity sourceentity) {
+		if (sourceentity == null)
 			return;
 		if (Math.random() < 0.3) {
-			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-				_entity.addEffect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 120, 1, false, false));
+			if (sourceentity instanceof LivingEntity _entity && !_entity.level().isClientSide())
+				_entity.addEffect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 250, 3, false, false));
 		}
 	}
 }

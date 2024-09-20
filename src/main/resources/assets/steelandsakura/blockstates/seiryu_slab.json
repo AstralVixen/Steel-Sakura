@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "steelandsakura:block/seiryu_slab"
+    },
+    "type=top": {
+      "model": "steelandsakura:block/seiryu_slab_top"
+    },
+    "type=double": {
+      "model": "steelandsakura:block/seiryu_slab_full"
+    }
+  }
+}

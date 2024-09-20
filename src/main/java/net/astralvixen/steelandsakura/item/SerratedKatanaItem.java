@@ -15,7 +15,7 @@ public class SerratedKatanaItem extends SwordItem {
 	public SerratedKatanaItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 90;
+				return 120;
 			}
 
 			public float getSpeed() {

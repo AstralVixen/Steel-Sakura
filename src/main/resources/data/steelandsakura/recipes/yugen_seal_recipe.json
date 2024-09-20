@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "steelandsakura:yugen_seal_piece"
+    },
+    "b": {
+      "item": "steelandsakura:spirit_essence"
+    }
+  },
+  "result": {
+    "item": "steelandsakura:yugen_seal",
+    "count": 1
+  }
+}

@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "steelandsakura:rune_of_midori"
+      "item": "steelandsakura:midori_seal"
     },
     "title": {
       "translate": "advancements.midori_hunter.title"
@@ -21,7 +21,7 @@
         "items": [
           {
             "items": [
-              "steelandsakura:rune_of_midori"
+              "steelandsakura:midori_seal"
             ],
             "count": {
               "min": 1,

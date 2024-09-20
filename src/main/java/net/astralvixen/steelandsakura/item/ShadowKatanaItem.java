@@ -18,7 +18,7 @@ public class ShadowKatanaItem extends SwordItem {
 	public ShadowKatanaItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 100;
+				return 400;
 			}
 
 			public float getSpeed() {

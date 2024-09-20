@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "steelandsakura:yugen_seal"
+    },
+    "title": {
+      "translate": "advancements.yugen_seal_advancement.title"
+    },
+    "description": {
+      "translate": "advancements.yugen_seal_advancement.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "yugen_seal_advancement_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "steelandsakura:yugen_seal"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 15
+  },
+  "parent": "steelandsakura:ronin_hunter"
+}

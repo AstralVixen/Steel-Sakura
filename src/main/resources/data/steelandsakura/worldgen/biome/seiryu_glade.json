@@ -1,13 +1,25 @@
 {
   "has_precipitation": true,
   "temperature": 0.5,
-  "downfall": 0.2,
+  "downfall": 1,
   "effects": {
+    "mood_sound": {
+      "sound": "steelandsakura:flute_1",
+      "tick_delay": 5973,
+      "offset": 8,
+      "block_search_extent": 2
+    },
+    "music": {
+      "sound": "steelandsakura:memeto_mori",
+      "min_delay": 12000,
+      "max_delay": 24000,
+      "replace_current_music": true
+    },
     "particle": {
       "options": {
-        "type": "enchant"
+        "type": "glow"
       },
-      "probability": 0.007
+      "probability": 0.01
     },
     "foliage_color": -14064129,
     "grass_color": -15461282,
@@ -17,9 +29,41 @@
     "water_fog_color": 329011
   },
   "spawners": {
-    "monster": [],
+    "monster": [
+      {
+        "type": "steelandsakura:teke_teke",
+        "weight": 20,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "steelandsakura:yurei",
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "illusioner",
+        "weight": 2,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "witch",
+        "weight": 13,
+        "minCount": 1,
+        "maxCount": 1
+      }
+    ],
     "creature": [],
-    "ambient": [],
+    "ambient": [
+      {
+        "type": "lightning_bolt",
+        "weight": 50,
+        "minCount": 1,
+        "maxCount": 5
+      }
+    ],
     "axolotls": [],
     "underground_water_creature": [],
     "water_creature": [],
@@ -27,47 +71,21 @@
     "misc": []
   },
   "spawn_costs": {},
-  "carvers": {
-    "air": [
-      "minecraft:cave",
-      "minecraft:cave_extra_underground",
-      "minecraft:canyon"
-    ]
-  },
+  "carvers": {},
   "features": [
     [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
     [
-      "minecraft:lake_lava_underground"
+      "steelandsakura:seiryu_glade_tree",
+      "minecraft:patch_tall_grass"
     ],
-    [],
-    [],
-    [],
-    [],
-    [
-      "minecraft:ore_coal_upper",
-      "minecraft:ore_coal_lower",
-      "minecraft:ore_iron_upper",
-      "minecraft:ore_iron_middle",
-      "minecraft:ore_iron_small",
-      "minecraft:ore_gold",
-      "minecraft:ore_gold_lower",
-      "minecraft:ore_redstone",
-      "minecraft:ore_redstone_lower",
-      "minecraft:ore_diamond",
-      "minecraft:ore_diamond_large",
-      "minecraft:ore_diamond_buried",
-      "minecraft:ore_lapis",
-      "minecraft:ore_lapis_buried",
-      "minecraft:ore_copper",
-      "minecraft:underwater_magma"
-    ],
-    [],
-    [],
-    [
-      "steelandsakura:seiryu_glade_tree"
-    ],
-    [
-      "minecraft:freeze_top_layer"
-    ]
+    []
   ]
 }

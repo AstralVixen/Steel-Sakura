@@ -1,0 +1,9 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "steelandsakura:block/seiryu_planks",
+    "top": "steelandsakura:block/seiryu_planks",
+    "side": "steelandsakura:block/seiryu_planks"
+  },
+  "render_type": "solid"
+}

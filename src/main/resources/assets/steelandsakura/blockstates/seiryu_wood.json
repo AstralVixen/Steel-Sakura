@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "steelandsakura:block/seiryu_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "steelandsakura:block/seiryu_wood"
+    },
+    "axis=z": {
+      "model": "steelandsakura:block/seiryu_wood",
+      "x": 90
+    }
+  }
+}

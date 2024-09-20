@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:purple_glazed_terracotta"
+    },
+    "title": {
+      "translate": "advancements.ronin_ruins.title"
+    },
+    "description": {
+      "translate": "advancements.ronin_ruins.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "ronin_ruins_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "steelandsakura:begin_journey"
+}

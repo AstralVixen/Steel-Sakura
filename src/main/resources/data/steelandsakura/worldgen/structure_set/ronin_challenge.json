@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "steelandsakura:ronin_challenge",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 120,
+    "separation": 110,
+    "salt": 1130488986
+  }
+}

@@ -13,7 +13,7 @@ public class IronKatanaItem extends SwordItem {
 	public IronKatanaItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 100;
+				return 200;
 			}
 
 			public float getSpeed() {

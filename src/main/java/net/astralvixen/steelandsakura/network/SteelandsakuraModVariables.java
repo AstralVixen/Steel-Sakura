@@ -68,7 +68,13 @@ public class SteelandsakuraModVariables {
 			PlayerVariables clone = ((PlayerVariables) event.getEntity().getCapability(PLAYER_VARIABLES_CAPABILITY, null).orElse(new PlayerVariables()));
 			clone.dan = original.dan;
 			clone.recievedbook = original.recievedbook;
+			clone.nearTorii = original.nearTorii;
+			clone.last_stand = original.last_stand;
 			if (!event.isWasDeath()) {
+				clone.bloodamout = original.bloodamout;
+				clone.pageNum = original.pageNum;
+				clone.pageText = original.pageText;
+				clone.pageTitle = original.pageTitle;
 			}
 		}
 	}
@@ -104,8 +110,14 @@ public class SteelandsakuraModVariables {
 	}
 
 	public static class PlayerVariables {
+		public double bloodamout = 0;
 		public double dan = 1.0;
+		public double pageNum = 1.0;
+		public String pageText = "Blocks.AIR.defaultBlockState()";
+		public String pageTitle = "TITLE";
 		public boolean recievedbook = false;
+		public boolean nearTorii = false;
+		public boolean last_stand = false;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
@@ -114,15 +126,27 @@ public class SteelandsakuraModVariables {
 
 		public Tag writeNBT() {
 			CompoundTag nbt = new CompoundTag();
+			nbt.putDouble("bloodamout", bloodamout);
 			nbt.putDouble("dan", dan);
+			nbt.putDouble("pageNum", pageNum);
+			nbt.putString("pageText", pageText);
+			nbt.putString("pageTitle", pageTitle);
 			nbt.putBoolean("recievedbook", recievedbook);
+			nbt.putBoolean("nearTorii", nearTorii);
+			nbt.putBoolean("last_stand", last_stand);
 			return nbt;
 		}
 
 		public void readNBT(Tag tag) {
 			CompoundTag nbt = (CompoundTag) tag;
+			bloodamout = nbt.getDouble("bloodamout");
 			dan = nbt.getDouble("dan");
+			pageNum = nbt.getDouble("pageNum");
+			pageText = nbt.getString("pageText");
+			pageTitle = nbt.getString("pageTitle");
 			recievedbook = nbt.getBoolean("recievedbook");
+			nearTorii = nbt.getBoolean("nearTorii");
+			last_stand = nbt.getBoolean("last_stand");
 		}
 	}
 
@@ -147,8 +171,14 @@ public class SteelandsakuraModVariables {
 			context.enqueueWork(() -> {
 				if (!context.getDirection().getReceptionSide().isServer()) {
 					PlayerVariables variables = ((PlayerVariables) Minecraft.getInstance().player.getCapability(PLAYER_VARIABLES_CAPABILITY, null).orElse(new PlayerVariables()));
+					variables.bloodamout = message.data.bloodamout;
 					variables.dan = message.data.dan;
+					variables.pageNum = message.data.pageNum;
+					variables.pageText = message.data.pageText;
+					variables.pageTitle = message.data.pageTitle;
 					variables.recievedbook = message.data.recievedbook;
+					variables.nearTorii = message.data.nearTorii;
+					variables.last_stand = message.data.last_stand;
 				}
 			});
 			context.setPacketHandled(true);

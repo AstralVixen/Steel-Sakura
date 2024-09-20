@@ -5,7 +5,7 @@
   },
   "spawners": {
     "type": "steelandsakura:oni",
-    "weight": 45,
+    "weight": 55,
     "minCount": 1,
     "maxCount": 3
   }
