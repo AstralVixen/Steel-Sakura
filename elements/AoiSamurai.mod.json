@@ -100,7 +100,7 @@
     "immuneToWither": false,
     "immuneToDragonBreath": false,
     "mobDrop": {
-      "value": "CUSTOM:RuneOfAoi"
+      "value": "CUSTOM:AoiSeal"
     },
     "livingSound": {
       "value": ""
@@ -130,7 +130,7 @@
     "rangedAttackRadius": 10.0,
     "spawnThisMob": true,
     "doesDespawnWhenIdle": true,
-    "spawningProbability": 90,
+    "spawningProbability": 95,
     "mobSpawningType": "creature",
     "minNumberOfMobsPerGroup": 3,
     "maxNumberOfMobsPerGroup": 8,

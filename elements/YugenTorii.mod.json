@@ -1,0 +1,26 @@
+{
+  "_fv": 60,
+  "_type": "structure",
+  "definition": {
+    "structure": "yugen_torii",
+    "projection": "rigid",
+    "ignoredBlocks": [
+      {
+        "value": "Blocks.STRUCTURE_BLOCK"
+      }
+    ],
+    "spacing": 200,
+    "separation": 150,
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:SeiryuGlade"
+      }
+    ],
+    "surfaceDetectionType": "WORLD_SURFACE_WG",
+    "terrainAdaptation": "beard_thin",
+    "generationStep": "SURFACE_STRUCTURES",
+    "size": 1,
+    "maxDistanceFromCenter": 64,
+    "jigsawPools": []
+  }
+}

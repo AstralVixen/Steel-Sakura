@@ -31,62 +31,60 @@
       "value": ""
     },
     "music": {
-      "value": ""
+      "value": "CUSTOM:memeto_mori"
     },
     "moodSound": {
-      "value": ""
+      "value": "CUSTOM:flute_1"
     },
-    "moodSoundDelay": 6000,
+    "moodSoundDelay": 5973,
     "spawnParticles": true,
     "particleToSpawn": {
-      "value": "ENCHANTMENT_TABLE"
+      "value": "GLOW"
     },
-    "particlesProbability": 0.7000000000000001,
-    "rainingPossibility": 0.19999999999999998,
+    "particlesProbability": 1.0,
+    "rainingPossibility": 1.0,
     "temperature": 0.5,
     "spawnBiome": true,
     "spawnInCaves": false,
     "spawnBiomeNether": false,
     "genTemperature": {
-      "min": 0.8,
-      "max": 1.0
+      "min": 0.1806,
+      "max": 0.5678
     },
     "genHumidity": {
-      "min": 0.7,
-      "max": 1.0
+      "min": 0.0843,
+      "max": 0.3712
     },
     "genContinentalness": {
-      "min": 0.4,
-      "max": 0.8
+      "min": -0.3874,
+      "max": 0.2
     },
     "genErosion": {
-      "min": 0.1,
+      "min": -0.4204,
       "max": 0.5
     },
     "genWeirdness": {
-      "min": -0.1,
-      "max": 0.5
+      "min": 0.1,
+      "max": 1.0
     },
-    "treesPerChunk": 6,
+    "treesPerChunk": 7,
     "vanillaTreeType": "Big trees",
-    "treeType": 0,
-    "minHeight": 7,
+    "treeType": 1,
+    "minHeight": 6,
     "treeStem": {
-      "value": ""
+      "value": "CUSTOM:SeiryuLog"
     },
     "treeBranch": {
-      "value": ""
+      "value": "CUSTOM:SeiryuLeaves"
     },
     "treeVines": {
-      "value": ""
+      "value": "Blocks.GLOW_LICHEN"
     },
     "treeFruits": {
       "value": ""
     },
     "defaultFeatures": [
-      "Caves",
-      "Ores",
-      "FrozenTopLayer"
+      "PlainsTallGrass"
     ],
     "spawnStronghold": false,
     "spawnMineshaft": false,
@@ -108,6 +106,52 @@
     "spawnBastionRemnant": false,
     "spawnEndCity": false,
     "spawnRuinedPortal": "NONE",
-    "spawnEntries": []
+    "spawnEntries": [
+      {
+        "entity": {
+          "value": "CUSTOM:TekeTeke"
+        },
+        "minGroup": 1,
+        "maxGroup": 1,
+        "weight": 20,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "CUSTOM:Yurei"
+        },
+        "minGroup": 1,
+        "maxGroup": 1,
+        "weight": 1,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "EntityIllusionIllager"
+        },
+        "minGroup": 1,
+        "maxGroup": 1,
+        "weight": 2,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "EntityLightningBolt"
+        },
+        "minGroup": 1,
+        "maxGroup": 5,
+        "weight": 50,
+        "spawnType": "ambient"
+      },
+      {
+        "entity": {
+          "value": "EntityWitch"
+        },
+        "minGroup": 1,
+        "maxGroup": 1,
+        "weight": 13,
+        "spawnType": "monster"
+      }
+    ]
   }
 }

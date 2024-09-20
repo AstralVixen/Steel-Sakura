@@ -3,7 +3,7 @@
     {
       "name": "Satetsu",
       "type": "block",
-      "sortid": 1,
+      "sortid": 35,
       "compiles": true,
       "locked_code": false,
       "registry_name": "satetsu",
@@ -38,7 +38,7 @@
     {
       "name": "TataraUpdateTick",
       "type": "procedure",
-      "sortid": 32,
+      "sortid": 50,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tatara_update_tick",
@@ -69,7 +69,7 @@
     {
       "name": "TataraGUI",
       "type": "gui",
-      "sortid": 33,
+      "sortid": 51,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tatara_gui",
@@ -83,7 +83,7 @@
     {
       "name": "Tatara",
       "type": "block",
-      "sortid": 2,
+      "sortid": 37,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tatara",
@@ -101,7 +101,7 @@
     {
       "name": "HeatText",
       "type": "procedure",
-      "sortid": 34,
+      "sortid": 52,
       "compiles": true,
       "locked_code": false,
       "registry_name": "heat_text",
@@ -133,7 +133,7 @@
     {
       "name": "Icon",
       "type": "item",
-      "sortid": 35,
+      "sortid": 53,
       "compiles": true,
       "locked_code": false,
       "registry_name": "icon",
@@ -147,7 +147,7 @@
     {
       "name": "SteelAndSakura",
       "type": "tab",
-      "sortid": 36,
+      "sortid": 54,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_and_sakura",
@@ -158,7 +158,7 @@
     {
       "name": "TataraRecipe",
       "type": "recipe",
-      "sortid": 37,
+      "sortid": 55,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tatara_recipe",
@@ -172,7 +172,7 @@
     {
       "name": "IronKatana",
       "type": "tool",
-      "sortid": 5,
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "registry_name": "iron_katana",
@@ -187,7 +187,7 @@
     {
       "name": "IronKatanaRecipe",
       "type": "recipe",
-      "sortid": 38,
+      "sortid": 56,
       "compiles": true,
       "locked_code": false,
       "registry_name": "iron_katana_recipe",
@@ -201,7 +201,7 @@
     {
       "name": "YugenAnvil",
       "type": "block",
-      "sortid": 3,
+      "sortid": 38,
       "compiles": true,
       "locked_code": false,
       "registry_name": "yugen_anvil",
@@ -219,7 +219,7 @@
     {
       "name": "YungenGUI",
       "type": "gui",
-      "sortid": 39,
+      "sortid": 57,
       "compiles": true,
       "locked_code": false,
       "registry_name": "yungen_gui",
@@ -234,7 +234,7 @@
     {
       "name": "BeginJourney",
       "type": "achievement",
-      "sortid": 40,
+      "sortid": 58,
       "compiles": true,
       "locked_code": false,
       "registry_name": "begin_journey",
@@ -248,7 +248,7 @@
     {
       "name": "GetTatara",
       "type": "achievement",
-      "sortid": 41,
+      "sortid": 59,
       "compiles": true,
       "locked_code": false,
       "registry_name": "get_tatara",
@@ -262,7 +262,7 @@
     {
       "name": "GetTamahagane",
       "type": "achievement",
-      "sortid": 42,
+      "sortid": 60,
       "compiles": true,
       "locked_code": false,
       "registry_name": "get_tamahagane",
@@ -276,7 +276,7 @@
     {
       "name": "GetKatana",
       "type": "achievement",
-      "sortid": 43,
+      "sortid": 61,
       "compiles": true,
       "locked_code": false,
       "registry_name": "get_katana",
@@ -290,7 +290,7 @@
     {
       "name": "AkaiSamurai",
       "type": "livingentity",
-      "sortid": 21,
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "registry_name": "akai_samurai",
@@ -305,54 +305,9 @@
       "path": "~/Entities/Hostlie"
     },
     {
-      "name": "RuneOfAkai",
-      "type": "item",
-      "sortid": 15,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "rune_of_akai",
-      "metadata": {
-        "files": [
-          "src/main/java/net/astralvixen/steelandsakura/item/RuneOfAkaiItem.java",
-          "src/main/resources/assets/steelandsakura/models/item/rune_of_akai.json"
-        ]
-      },
-      "path": "~/Items"
-    },
-    {
-      "name": "RuneOfMidori",
-      "type": "item",
-      "sortid": 16,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "rune_of_midori",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/steelandsakura/models/item/rune_of_midori.json",
-          "src/main/java/net/astralvixen/steelandsakura/item/RuneOfMidoriItem.java"
-        ]
-      },
-      "path": "~/Items"
-    },
-    {
-      "name": "RuneOfAoi",
-      "type": "item",
-      "sortid": 17,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "rune_of_aoi",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/steelandsakura/models/item/rune_of_aoi.json",
-          "src/main/java/net/astralvixen/steelandsakura/item/RuneOfAoiItem.java"
-        ]
-      },
-      "path": "~/Items"
-    },
-    {
       "name": "MidoriSamurai",
       "type": "livingentity",
-      "sortid": 22,
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "registry_name": "midori_samurai",
@@ -369,7 +324,7 @@
     {
       "name": "AoiSamurai",
       "type": "livingentity",
-      "sortid": 23,
+      "sortid": 25,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aoi_samurai",
@@ -386,7 +341,7 @@
     {
       "name": "FrostOni",
       "type": "livingentity",
-      "sortid": 24,
+      "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "registry_name": "frost_oni",
@@ -403,7 +358,7 @@
     {
       "name": "EndOni",
       "type": "livingentity",
-      "sortid": 25,
+      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "registry_name": "end_oni",
@@ -420,7 +375,7 @@
     {
       "name": "Oni",
       "type": "livingentity",
-      "sortid": 26,
+      "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "registry_name": "oni",
@@ -437,7 +392,7 @@
     {
       "name": "Shirokami",
       "type": "livingentity",
-      "sortid": 27,
+      "sortid": 33,
       "compiles": true,
       "locked_code": false,
       "registry_name": "shirokami",
@@ -453,7 +408,7 @@
     {
       "name": "ShinkunoHono",
       "type": "tool",
-      "sortid": 10,
+      "sortid": 14,
       "compiles": true,
       "locked_code": true,
       "registry_name": "shinkuno_hono",
@@ -468,7 +423,7 @@
     {
       "name": "ShinkunoHonoLivingEntityIsHitWithTool",
       "type": "procedure",
-      "sortid": 44,
+      "sortid": 62,
       "compiles": true,
       "locked_code": false,
       "registry_name": "shinkuno_hono_living_entity_is_hit_with_tool",
@@ -488,7 +443,7 @@
     {
       "name": "YungenRecipes",
       "type": "procedure",
-      "sortid": 45,
+      "sortid": 63,
       "compiles": true,
       "locked_code": true,
       "registry_name": "yungen_recipes",
@@ -523,7 +478,7 @@
     {
       "name": "MidorinoSeishin",
       "type": "tool",
-      "sortid": 11,
+      "sortid": 15,
       "compiles": true,
       "locked_code": true,
       "registry_name": "midorino_seishin",
@@ -538,7 +493,7 @@
     {
       "name": "MidorinoSeishinLivingEntityIsHitWithTool",
       "type": "procedure",
-      "sortid": 46,
+      "sortid": 64,
       "compiles": true,
       "locked_code": false,
       "registry_name": "midorino_seishin_living_entity_is_hit_with_tool",
@@ -558,7 +513,7 @@
     {
       "name": "AonaminoTsurugi",
       "type": "tool",
-      "sortid": 12,
+      "sortid": 16,
       "compiles": true,
       "locked_code": true,
       "registry_name": "aonamino_tsurugi",
@@ -573,7 +528,7 @@
     {
       "name": "AonaminoTsurugiLivingEntityIsHitWithTool",
       "type": "procedure",
-      "sortid": 47,
+      "sortid": 65,
       "compiles": true,
       "locked_code": true,
       "registry_name": "aonamino_tsurugi_living_entity_is_hit_with_tool",
@@ -597,7 +552,7 @@
     {
       "name": "KoganenoKage",
       "type": "tool",
-      "sortid": 13,
+      "sortid": 17,
       "compiles": true,
       "locked_code": true,
       "registry_name": "koganeno_kage",
@@ -612,7 +567,7 @@
     {
       "name": "KoganenoKageLivingEntityIsHitWithTool",
       "type": "procedure",
-      "sortid": 48,
+      "sortid": 66,
       "compiles": true,
       "locked_code": false,
       "registry_name": "koganeno_kage_living_entity_is_hit_with_tool",
@@ -622,7 +577,7 @@
         ],
         "dependencies": [
           {
-            "name": "entity",
+            "name": "sourceentity",
             "type": "entity"
           }
         ]
@@ -632,7 +587,7 @@
     {
       "name": "KinSamurai",
       "type": "livingentity",
-      "sortid": 28,
+      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "registry_name": "kin_samurai",
@@ -645,21 +600,6 @@
         ]
       },
       "path": "~/Entities/Hostlie"
-    },
-    {
-      "name": "RuneOfKin",
-      "type": "item",
-      "sortid": 18,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "rune_of_kin",
-      "metadata": {
-        "files": [
-          "src/main/java/net/astralvixen/steelandsakura/item/RuneOfKinItem.java",
-          "src/main/resources/assets/steelandsakura/models/item/rune_of_kin.json"
-        ]
-      },
-      "path": "~/Items"
     },
     {
       "name": "SpiritEssence",
@@ -679,7 +619,7 @@
     {
       "name": "YugenAnvilRecipe",
       "type": "recipe",
-      "sortid": 49,
+      "sortid": 67,
       "compiles": true,
       "locked_code": false,
       "registry_name": "yugen_anvil_recipe",
@@ -693,7 +633,7 @@
     {
       "name": "KillOni",
       "type": "achievement",
-      "sortid": 50,
+      "sortid": 68,
       "compiles": true,
       "locked_code": false,
       "registry_name": "kill_oni",
@@ -707,7 +647,7 @@
     {
       "name": "AkaiHunter",
       "type": "achievement",
-      "sortid": 51,
+      "sortid": 69,
       "compiles": true,
       "locked_code": false,
       "registry_name": "akai_hunter",
@@ -721,7 +661,7 @@
     {
       "name": "MidoriHunter",
       "type": "achievement",
-      "sortid": 52,
+      "sortid": 70,
       "compiles": true,
       "locked_code": false,
       "registry_name": "midori_hunter",
@@ -735,7 +675,7 @@
     {
       "name": "AoiHuter",
       "type": "achievement",
-      "sortid": 53,
+      "sortid": 71,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aoi_huter",
@@ -749,7 +689,7 @@
     {
       "name": "KinHunter",
       "type": "achievement",
-      "sortid": 54,
+      "sortid": 72,
       "compiles": true,
       "locked_code": false,
       "registry_name": "kin_hunter",
@@ -763,7 +703,7 @@
     {
       "name": "YungenAnvil",
       "type": "achievement",
-      "sortid": 55,
+      "sortid": 73,
       "compiles": true,
       "locked_code": false,
       "registry_name": "yungen_anvil",
@@ -777,7 +717,7 @@
     {
       "name": "YungenKatana",
       "type": "tool",
-      "sortid": 14,
+      "sortid": 18,
       "compiles": true,
       "locked_code": true,
       "registry_name": "yungen_katana",
@@ -792,7 +732,7 @@
     {
       "name": "YugenRitual",
       "type": "achievement",
-      "sortid": 56,
+      "sortid": 74,
       "compiles": true,
       "locked_code": false,
       "registry_name": "yugen_ritual",
@@ -806,7 +746,7 @@
     {
       "name": "OniHead",
       "type": "block",
-      "sortid": 57,
+      "sortid": 75,
       "compiles": true,
       "locked_code": false,
       "registry_name": "oni_head",
@@ -824,7 +764,7 @@
     {
       "name": "OniHeadItemRightclickedOnBlock",
       "type": "procedure",
-      "sortid": 58,
+      "sortid": 76,
       "compiles": true,
       "locked_code": false,
       "registry_name": "oni_head_item_rightclicked_on_block",
@@ -856,7 +796,7 @@
     {
       "name": "OniHeadItem",
       "type": "item",
-      "sortid": 31,
+      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "registry_name": "oni_head_item",
@@ -871,7 +811,7 @@
     {
       "name": "AmplifiedCherryGrove",
       "type": "biome",
-      "sortid": 59,
+      "sortid": 77,
       "compiles": true,
       "locked_code": false,
       "registry_name": "amplified_cherry_grove",
@@ -890,7 +830,7 @@
     {
       "name": "Yurei",
       "type": "livingentity",
-      "sortid": 29,
+      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "registry_name": "yurei",
@@ -907,7 +847,7 @@
     {
       "name": "TekeTeke",
       "type": "animatedentity",
-      "sortid": 30,
+      "sortid": 31,
       "compiles": true,
       "locked_code": false,
       "registry_name": "teke_teke",
@@ -925,7 +865,7 @@
     {
       "name": "YungenKatanaLivingEntityIsHitWithTool",
       "type": "procedure",
-      "sortid": 60,
+      "sortid": 78,
       "compiles": true,
       "locked_code": false,
       "registry_name": "yungen_katana_living_entity_is_hit_with_tool",
@@ -945,13 +885,15 @@
     {
       "name": "SeiryuGlade",
       "type": "biome",
-      "sortid": 61,
+      "sortid": 79,
       "compiles": true,
       "locked_code": false,
       "registry_name": "seiryu_glade",
       "metadata": {
         "files": [
+          "src/main/java/net/astralvixen/steelandsakura/world/features/treedecorators/SeiryuGladeTrunkDecorator.java",
           "src/main/resources/data/steelandsakura/worldgen/placed_feature/seiryu_glade_tree.json",
+          "src/main/java/net/astralvixen/steelandsakura/world/features/treedecorators/SeiryuGladeLeaveDecorator.java",
           "src/main/resources/data/steelandsakura/worldgen/biome/seiryu_glade.json",
           "src/main/resources/data/steelandsakura/worldgen/configured_feature/seiryu_glade_tree.json"
         ]
@@ -961,7 +903,7 @@
     {
       "name": "GetStats",
       "type": "procedure",
-      "sortid": 62,
+      "sortid": 80,
       "compiles": true,
       "locked_code": false,
       "registry_name": "get_stats",
@@ -981,7 +923,7 @@
     {
       "name": "GetPlayerModel",
       "type": "procedure",
-      "sortid": 63,
+      "sortid": 81,
       "compiles": true,
       "locked_code": false,
       "registry_name": "get_player_model",
@@ -1001,7 +943,7 @@
     {
       "name": "DanGUI",
       "type": "gui",
-      "sortid": 64,
+      "sortid": 82,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dan_gui",
@@ -1015,7 +957,7 @@
     {
       "name": "DanMenuOnKeyPressed",
       "type": "procedure",
-      "sortid": 65,
+      "sortid": 83,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dan_menu_on_key_pressed",
@@ -1050,7 +992,7 @@
     {
       "name": "DanMenu",
       "type": "keybind",
-      "sortid": 66,
+      "sortid": 84,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dan_menu",
@@ -1063,7 +1005,7 @@
     {
       "name": "CompositeKatana",
       "type": "tool",
-      "sortid": 6,
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "registry_name": "composite_katana",
@@ -1078,7 +1020,7 @@
     {
       "name": "CompositeKatanaRecipe",
       "type": "recipe",
-      "sortid": 67,
+      "sortid": 85,
       "compiles": true,
       "locked_code": false,
       "registry_name": "composite_katana_recipe",
@@ -1092,7 +1034,7 @@
     {
       "name": "SerratedKatana",
       "type": "tool",
-      "sortid": 7,
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "registry_name": "serrated_katana",
@@ -1107,7 +1049,7 @@
     {
       "name": "BleedOnEffectActiveTick",
       "type": "procedure",
-      "sortid": 68,
+      "sortid": 86,
       "compiles": true,
       "locked_code": true,
       "registry_name": "bleed_on_effect_active_tick",
@@ -1127,7 +1069,7 @@
     {
       "name": "Bleed",
       "type": "potioneffect",
-      "sortid": 69,
+      "sortid": 87,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bleed",
@@ -1141,7 +1083,7 @@
     {
       "name": "SerratedKatanaLivingEntityIsHitWithTool",
       "type": "procedure",
-      "sortid": 70,
+      "sortid": 88,
       "compiles": true,
       "locked_code": false,
       "registry_name": "serrated_katana_living_entity_is_hit_with_tool",
@@ -1161,7 +1103,7 @@
     {
       "name": "HeavyKatana",
       "type": "tool",
-      "sortid": 8,
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "registry_name": "heavy_katana",
@@ -1176,7 +1118,7 @@
     {
       "name": "SerratedKatanaRecipe",
       "type": "recipe",
-      "sortid": 71,
+      "sortid": 89,
       "compiles": true,
       "locked_code": false,
       "registry_name": "serrated_katana_recipe",
@@ -1190,7 +1132,7 @@
     {
       "name": "HeavyKatanaRecipe",
       "type": "recipe",
-      "sortid": 72,
+      "sortid": 90,
       "compiles": true,
       "locked_code": false,
       "registry_name": "heavy_katana_recipe",
@@ -1204,7 +1146,7 @@
     {
       "name": "WoodenKatana",
       "type": "tool",
-      "sortid": 4,
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wooden_katana",
@@ -1219,7 +1161,7 @@
     {
       "name": "WoodenKatanaRecipe",
       "type": "recipe",
-      "sortid": 73,
+      "sortid": 91,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wooden_katana_recipe",
@@ -1233,7 +1175,7 @@
     {
       "name": "ShadowKatana",
       "type": "tool",
-      "sortid": 9,
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "registry_name": "shadow_katana",
@@ -1248,7 +1190,7 @@
     {
       "name": "SwiftSlashes",
       "type": "achievement",
-      "sortid": 74,
+      "sortid": 92,
       "compiles": true,
       "locked_code": false,
       "registry_name": "swift_slashes",
@@ -1262,7 +1204,7 @@
     {
       "name": "DeepCuts",
       "type": "achievement",
-      "sortid": 75,
+      "sortid": 93,
       "compiles": true,
       "locked_code": false,
       "registry_name": "deep_cuts",
@@ -1276,7 +1218,7 @@
     {
       "name": "HeavyHitter",
       "type": "achievement",
-      "sortid": 76,
+      "sortid": 94,
       "compiles": true,
       "locked_code": false,
       "registry_name": "heavy_hitter",
@@ -1290,7 +1232,7 @@
     {
       "name": "TataraOnRandomClientDisplayTick",
       "type": "procedure",
-      "sortid": 77,
+      "sortid": 95,
       "compiles": true,
       "locked_code": true,
       "registry_name": "tatara_on_random_client_display_tick",
@@ -1321,14 +1263,15 @@
     {
       "name": "TheShogunsManual",
       "type": "item",
-      "sortid": 78,
+      "sortid": 1,
       "compiles": true,
       "locked_code": false,
       "registry_name": "the_shoguns_manual",
       "metadata": {
         "files": [
           "src/main/resources/assets/steelandsakura/models/item/the_shoguns_manual.json",
-          "src/main/java/net/astralvixen/steelandsakura/item/TheShogunsManualItem.java"
+          "src/main/java/net/astralvixen/steelandsakura/item/TheShogunsManualItem.java",
+          "src/main/java/net/astralvixen/steelandsakura/item/inventory/TheShogunsManualInventoryCapability.java"
         ]
       },
       "path": "~/Items"
@@ -1336,12 +1279,13 @@
     {
       "name": "ShogunsManualTemplateGUI",
       "type": "gui",
-      "sortid": 79,
+      "sortid": 96,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "shoguns_manual_template_gui",
       "metadata": {
         "files": [
+          "src/main/java/net/astralvixen/steelandsakura/network/ShogunsManualTemplateGUIButtonMessage.java",
           "src/main/java/net/astralvixen/steelandsakura/client/gui/ShogunsManualTemplateGUIScreen.java",
           "src/main/java/net/astralvixen/steelandsakura/world/inventory/ShogunsManualTemplateGUIMenu.java"
         ]
@@ -1349,25 +1293,9 @@
       "path": "~/ShogunManual"
     },
     {
-      "name": "SMP1",
-      "type": "gui",
-      "sortid": 80,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "smp_1",
-      "metadata": {
-        "files": [
-          "src/main/java/net/astralvixen/steelandsakura/client/gui/SMP1Screen.java",
-          "src/main/java/net/astralvixen/steelandsakura/world/inventory/SMP1Menu.java",
-          "src/main/java/net/astralvixen/steelandsakura/network/SMP1ButtonMessage.java"
-        ]
-      },
-      "path": "~/ShogunManual"
-    },
-    {
       "name": "TheShogunsManualRightclicked",
       "type": "procedure",
-      "sortid": 81,
+      "sortid": 97,
       "compiles": true,
       "locked_code": false,
       "registry_name": "the_shoguns_manual_rightclicked",
@@ -1403,7 +1331,7 @@
     {
       "name": "GiveShogunManual",
       "type": "procedure",
-      "sortid": 82,
+      "sortid": 98,
       "compiles": true,
       "locked_code": false,
       "registry_name": "give_shogun_manual",
@@ -1422,7 +1350,7 @@
     {
       "name": "ShogunManualRecipe",
       "type": "recipe",
-      "sortid": 83,
+      "sortid": 99,
       "compiles": true,
       "locked_code": false,
       "registry_name": "shogun_manual_recipe",
@@ -1436,7 +1364,7 @@
     {
       "name": "GetSatetsu",
       "type": "achievement",
-      "sortid": 84,
+      "sortid": 100,
       "compiles": true,
       "locked_code": false,
       "registry_name": "get_satetsu",
@@ -1448,76 +1376,9 @@
       "path": "~/Advancments"
     },
     {
-      "name": "SMP2",
-      "type": "gui",
-      "sortid": 85,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "smp_2",
-      "metadata": {
-        "files": [
-          "src/main/java/net/astralvixen/steelandsakura/network/SMP2ButtonMessage.java",
-          "src/main/java/net/astralvixen/steelandsakura/world/inventory/SMP2Menu.java",
-          "src/main/java/net/astralvixen/steelandsakura/client/gui/SMP2Screen.java"
-        ]
-      },
-      "path": "~/ShogunManual"
-    },
-    {
-      "name": "Op2",
-      "type": "procedure",
-      "sortid": 86,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "op_2",
-      "metadata": {
-        "files": [
-          "src/main/java/net/astralvixen/steelandsakura/procedures/Op2Procedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/ShogunManual"
-    },
-    {
-      "name": "SMP3",
-      "type": "gui",
-      "sortid": 87,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "smp_3",
-      "metadata": {
-        "files": [
-          "src/main/java/net/astralvixen/steelandsakura/client/gui/SMP3Screen.java",
-          "src/main/java/net/astralvixen/steelandsakura/world/inventory/SMP3Menu.java"
-        ]
-      },
-      "path": "~/ShogunManual"
-    },
-    {
       "name": "GetAkaiModel",
       "type": "procedure",
-      "sortid": 88,
+      "sortid": 101,
       "compiles": true,
       "locked_code": false,
       "registry_name": "get_akai_model",
@@ -1535,117 +1396,9 @@
       }
     },
     {
-      "name": "Bp0",
-      "type": "procedure",
-      "sortid": 89,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "bp_0",
-      "metadata": {
-        "files": [
-          "src/main/java/net/astralvixen/steelandsakura/procedures/Bp0Procedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/ShogunManual"
-    },
-    {
-      "name": "Op3",
-      "type": "procedure",
-      "sortid": 90,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "op_3",
-      "metadata": {
-        "files": [
-          "src/main/java/net/astralvixen/steelandsakura/procedures/Op3Procedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/ShogunManual"
-    },
-    {
-      "name": "Bp1",
-      "type": "procedure",
-      "sortid": 91,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "bp_1",
-      "metadata": {
-        "files": [
-          "src/main/java/net/astralvixen/steelandsakura/procedures/Bp1Procedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/ShogunManual"
-    },
-    {
       "name": "Tatami",
       "type": "block",
-      "sortid": 92,
+      "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tatami",
@@ -1659,9 +1412,1082 @@
         ]
       },
       "path": "~/Blocks"
+    },
+    {
+      "name": "BloodLustOnEffectActiveTick",
+      "type": "procedure",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "blood_lust_on_effect_active_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/astralvixen/steelandsakura/procedures/BloodLustOnEffectActiveTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Effects"
+    },
+    {
+      "name": "Bloodlust",
+      "type": "potioneffect",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "bloodlust",
+      "metadata": {
+        "files": [
+          "src/main/java/net/astralvixen/steelandsakura/potion/BloodlustMobEffect.java"
+        ]
+      },
+      "path": "~/Effects"
+    },
+    {
+      "name": "OniAmulet",
+      "type": "item",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oni_amulet",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/steelandsakura/models/item/oni_amulet.json",
+          "src/main/java/net/astralvixen/steelandsakura/item/OniAmuletItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "OniAmuletItemInInventoryTick",
+      "type": "procedure",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oni_amulet_item_in_inventory_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/astralvixen/steelandsakura/procedures/OniAmuletItemInInventoryTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "MizuchisGrace",
+      "type": "potioneffect",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "mizuchis_grace",
+      "metadata": {
+        "files": [
+          "src/main/java/net/astralvixen/steelandsakura/potion/MizuchisGraceMobEffect.java"
+        ]
+      },
+      "path": "~/Effects"
+    },
+    {
+      "name": "MizuchisGraceOnEffectActiveTick",
+      "type": "procedure",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "mizuchis_grace_on_effect_active_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/astralvixen/steelandsakura/procedures/MizuchisGraceOnEffectActiveTickProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/Effects"
+    },
+    {
+      "name": "GetAoiModel",
+      "type": "procedure",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_aoi_model",
+      "metadata": {
+        "return_type": "entity",
+        "files": [
+          "src/main/java/net/astralvixen/steelandsakura/procedures/GetAoiModelProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GetMidoriModel",
+      "type": "procedure",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_midori_model",
+      "metadata": {
+        "return_type": "entity",
+        "files": [
+          "src/main/java/net/astralvixen/steelandsakura/procedures/GetMidoriModelProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GetKinModel",
+      "type": "procedure",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_kin_model",
+      "metadata": {
+        "return_type": "entity",
+        "files": [
+          "src/main/java/net/astralvixen/steelandsakura/procedures/GetKinModelProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SeiryuWood",
+      "type": "block",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "seiryu_wood",
+      "metadata": {
+        "files": [
+          "src/main/java/net/astralvixen/steelandsakura/block/SeiryuWoodBlock.java",
+          "src/main/resources/assets/steelandsakura/models/block/seiryu_wood.json",
+          "src/main/resources/assets/steelandsakura/models/item/seiryu_wood.json",
+          "src/main/resources/assets/steelandsakura/blockstates/seiryu_wood.json",
+          "src/main/resources/data/steelandsakura/loot_tables/blocks/seiryu_wood.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "SeiryuLog",
+      "type": "block",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "seiryu_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/steelandsakura/models/block/seiryu_log.json",
+          "src/main/resources/assets/steelandsakura/blockstates/seiryu_log.json",
+          "src/main/java/net/astralvixen/steelandsakura/block/SeiryuLogBlock.java",
+          "src/main/resources/assets/steelandsakura/models/item/seiryu_log.json",
+          "src/main/resources/data/steelandsakura/loot_tables/blocks/seiryu_log.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "SeiryuPlanks",
+      "type": "block",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "seiryu_planks",
+      "metadata": {
+        "files": [
+          "src/main/java/net/astralvixen/steelandsakura/block/SeiryuPlanksBlock.java",
+          "src/main/resources/assets/steelandsakura/models/item/seiryu_planks.json",
+          "src/main/resources/assets/steelandsakura/models/block/seiryu_planks.json",
+          "src/main/resources/assets/steelandsakura/blockstates/seiryu_planks.json",
+          "src/main/resources/data/steelandsakura/loot_tables/blocks/seiryu_planks.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "SeiryuLeaves",
+      "type": "block",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "seiryu_leaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/steelandsakura/loot_tables/blocks/seiryu_leaves.json",
+          "src/main/resources/assets/steelandsakura/blockstates/seiryu_leaves.json",
+          "src/main/java/net/astralvixen/steelandsakura/block/SeiryuLeavesBlock.java",
+          "src/main/resources/assets/steelandsakura/models/item/seiryu_leaves.json",
+          "src/main/resources/assets/steelandsakura/models/block/seiryu_leaves.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "SeiryuStairs",
+      "type": "block",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "seiryu_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/steelandsakura/models/block/seiryu_stairs_outer.json",
+          "src/main/resources/assets/steelandsakura/blockstates/seiryu_stairs.json",
+          "src/main/resources/data/steelandsakura/loot_tables/blocks/seiryu_stairs.json",
+          "src/main/resources/assets/steelandsakura/models/block/seiryu_stairs_inner.json",
+          "src/main/resources/assets/steelandsakura/models/item/seiryu_stairs.json",
+          "src/main/java/net/astralvixen/steelandsakura/block/SeiryuStairsBlock.java",
+          "src/main/resources/assets/steelandsakura/models/block/seiryu_stairs.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "SeiryuSlab",
+      "type": "block",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "seiryu_slab",
+      "metadata": {
+        "files": [
+          "src/main/java/net/astralvixen/steelandsakura/block/SeiryuSlabBlock.java",
+          "src/main/resources/assets/steelandsakura/models/item/seiryu_slab.json",
+          "src/main/resources/assets/steelandsakura/blockstates/seiryu_slab.json",
+          "src/main/resources/assets/steelandsakura/models/block/seiryu_slab_top.json",
+          "src/main/resources/assets/steelandsakura/models/block/seiryu_slab_full.json",
+          "src/main/resources/assets/steelandsakura/models/block/seiryu_slab.json",
+          "src/main/resources/data/steelandsakura/loot_tables/blocks/seiryu_slab.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "SeiryuFence",
+      "type": "block",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "seiryu_fence",
+      "metadata": {
+        "files": [
+          "src/main/java/net/astralvixen/steelandsakura/block/SeiryuFenceBlock.java",
+          "src/main/resources/assets/steelandsakura/models/block/seiryu_fence_post.json",
+          "src/main/resources/assets/steelandsakura/models/block/seiryu_fence.json",
+          "src/main/resources/assets/steelandsakura/models/block/seiryu_fence_inventory.json",
+          "src/main/resources/assets/steelandsakura/blockstates/seiryu_fence.json",
+          "src/main/resources/assets/steelandsakura/models/item/seiryu_fence.json",
+          "src/main/resources/data/steelandsakura/loot_tables/blocks/seiryu_fence.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "SeiryuFenceGate",
+      "type": "block",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "seiryu_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/steelandsakura/models/block/seiryu_fence_gate.json",
+          "src/main/java/net/astralvixen/steelandsakura/block/SeiryuFenceGateBlock.java",
+          "src/main/resources/assets/steelandsakura/models/block/seiryu_fence_gate_wall.json",
+          "src/main/resources/data/steelandsakura/loot_tables/blocks/seiryu_fence_gate.json",
+          "src/main/resources/assets/steelandsakura/models/block/seiryu_fence_gate_open.json",
+          "src/main/resources/assets/steelandsakura/models/item/seiryu_fence_gate.json",
+          "src/main/resources/assets/steelandsakura/blockstates/seiryu_fence_gate.json",
+          "src/main/resources/assets/steelandsakura/models/block/seiryu_fence_gate_wall_open.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "SeiryuPressurePlate",
+      "type": "block",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "seiryu_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/steelandsakura/loot_tables/blocks/seiryu_pressure_plate.json",
+          "src/main/resources/assets/steelandsakura/models/block/seiryu_pressure_plate_down.json",
+          "src/main/resources/assets/steelandsakura/models/block/seiryu_pressure_plate.json",
+          "src/main/java/net/astralvixen/steelandsakura/block/SeiryuPressurePlateBlock.java",
+          "src/main/resources/assets/steelandsakura/models/item/seiryu_pressure_plate.json",
+          "src/main/resources/assets/steelandsakura/blockstates/seiryu_pressure_plate.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "SeiryuButton",
+      "type": "block",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "seiryu_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/steelandsakura/models/item/seiryu_button.json",
+          "src/main/resources/assets/steelandsakura/models/block/seiryu_button_pressed.json",
+          "src/main/resources/assets/steelandsakura/models/block/seiryu_button_inventory.json",
+          "src/main/resources/assets/steelandsakura/models/block/seiryu_button.json",
+          "src/main/java/net/astralvixen/steelandsakura/block/SeiryuButtonBlock.java",
+          "src/main/resources/assets/steelandsakura/blockstates/seiryu_button.json",
+          "src/main/resources/data/steelandsakura/loot_tables/blocks/seiryu_button.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "SeiryuWoodRecipe",
+      "type": "recipe",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "seiryu_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/steelandsakura/recipes/seiryu_wood_recipe.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "SeiryuPlanksLogRecipe",
+      "type": "recipe",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "seiryu_planks_log_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/steelandsakura/recipes/seiryu_planks_log_recipe.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "SeiryuPlanksWoodRecipe",
+      "type": "recipe",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "seiryu_planks_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/steelandsakura/recipes/seiryu_planks_wood_recipe.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "SeiryuStairsRecipe",
+      "type": "recipe",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "seiryu_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/steelandsakura/recipes/seiryu_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "SeiryuSlabRecipe",
+      "type": "recipe",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "seiryu_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/steelandsakura/recipes/seiryu_slab_recipe.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "SeiryuFenceRecipe",
+      "type": "recipe",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "seiryu_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/steelandsakura/recipes/seiryu_fence_recipe.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "SeiryuFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "seiryu_fence_gate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/steelandsakura/recipes/seiryu_fence_gate_recipe.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "SeiryuPressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "seiryu_pressure_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/steelandsakura/recipes/seiryu_pressure_plate_recipe.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "SeiryuButtonRecipe",
+      "type": "recipe",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "seiryu_button_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/steelandsakura/recipes/seiryu_button_recipe.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "SeiryuStickRecipe",
+      "type": "recipe",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "seiryu_stick_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/steelandsakura/recipes/seiryu_stick_recipe.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "TatamiRecipe",
+      "type": "recipe",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatami_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/steelandsakura/recipes/tatami_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Ronin",
+      "type": "livingentity",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ronin",
+      "metadata": {
+        "files": [
+          "src/main/java/net/astralvixen/steelandsakura/entity/RoninEntity.java",
+          "src/main/resources/assets/steelandsakura/models/item/ronin_spawn_egg.json",
+          "src/main/java/net/astralvixen/steelandsakura/client/renderer/RoninRenderer.java"
+        ]
+      },
+      "path": "~/Entities/Hostlie"
+    },
+    {
+      "name": "RoninChallenge",
+      "type": "structure",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ronin_challenge",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/steelandsakura/worldgen/structure_set/ronin_challenge.json",
+          "src/main/resources/data/steelandsakura/worldgen/template_pool/ronin_challenge.json",
+          "src/main/resources/data/steelandsakura/worldgen/structure/ronin_challenge.json"
+        ]
+      }
+    },
+    {
+      "name": "SeiryuFlowers",
+      "type": "feature",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "seiryu_flowers",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/steelandsakura/forge/biome_modifier/seiryu_flowers_biome_modifier.json",
+          "src/main/resources/data/steelandsakura/worldgen/placed_feature/seiryu_flowers.json",
+          "src/main/resources/data/steelandsakura/worldgen/configured_feature/seiryu_flowers.json"
+        ]
+      },
+      "path": "~/Biomes"
+    },
+    {
+      "name": "SeiryuBush",
+      "type": "plant",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "seiryu_bush",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/steelandsakura/forge/biome_modifier/seiryu_bush_biome_modifier.json",
+          "src/main/resources/data/steelandsakura/loot_tables/blocks/seiryu_bush.json",
+          "src/main/resources/assets/steelandsakura/models/item/seiryu_bush.json",
+          "src/main/resources/data/steelandsakura/worldgen/configured_feature/seiryu_bush.json",
+          "src/main/resources/assets/steelandsakura/blockstates/seiryu_bush.json",
+          "src/main/resources/data/steelandsakura/worldgen/placed_feature/seiryu_bush.json",
+          "src/main/java/net/astralvixen/steelandsakura/block/SeiryuBushBlock.java",
+          "src/main/resources/assets/steelandsakura/models/block/seiryu_bush.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "RoninRuins",
+      "type": "achievement",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ronin_ruins",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/steelandsakura/advancements/ronin_ruins.json"
+        ]
+      },
+      "path": "~/Advancments"
+    },
+    {
+      "name": "RoninRuinsDetector",
+      "type": "procedure",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "ronin_ruins_detector",
+      "metadata": {
+        "files": [
+          "src/main/java/net/astralvixen/steelandsakura/procedures/RoninRuinsDetectorProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "IncPage",
+      "type": "procedure",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "inc_page",
+      "metadata": {
+        "files": [
+          "src/main/java/net/astralvixen/steelandsakura/procedures/IncPageProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/ShogunManual"
+    },
+    {
+      "name": "DecPage",
+      "type": "procedure",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dec_page",
+      "metadata": {
+        "files": [
+          "src/main/java/net/astralvixen/steelandsakura/procedures/DecPageProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/ShogunManual"
+    },
+    {
+      "name": "ContentProvider",
+      "type": "procedure",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "content_provider",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/astralvixen/steelandsakura/procedures/ContentProviderProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/ShogunManual"
+    },
+    {
+      "name": "TitleProvider",
+      "type": "procedure",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "title_provider",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/astralvixen/steelandsakura/procedures/TitleProviderProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/ShogunManual"
+    },
+    {
+      "name": "ModelProvider",
+      "type": "procedure",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "model_provider",
+      "metadata": {
+        "return_type": "entity",
+        "files": [
+          "src/main/java/net/astralvixen/steelandsakura/procedures/ModelProviderProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/ShogunManual"
+    },
+    {
+      "name": "OnryonoShogun",
+      "type": "livingentity",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "onryono_shogun",
+      "metadata": {
+        "files": [
+          "src/main/java/net/astralvixen/steelandsakura/entity/OnryonoShogunEntity.java",
+          "src/main/java/net/astralvixen/steelandsakura/client/renderer/OnryonoShogunRenderer.java",
+          "src/main/resources/assets/steelandsakura/models/item/onryono_shogun_spawn_egg.json"
+        ]
+      },
+      "path": "~/Entities/Hostlie"
+    },
+    {
+      "name": "BloodlustEffectExpires",
+      "type": "procedure",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "bloodlust_effect_expires",
+      "metadata": {
+        "files": [
+          "src/main/java/net/astralvixen/steelandsakura/procedures/BloodlustEffectExpiresProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/Effects"
+    },
+    {
+      "name": "RoninHunter",
+      "type": "achievement",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ronin_hunter",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/steelandsakura/advancements/ronin_hunter.json"
+        ]
+      },
+      "path": "~/Advancments"
+    },
+    {
+      "name": "SpiritualMirrorClone",
+      "type": "livingentity",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spiritual_mirror_clone",
+      "metadata": {
+        "files": [
+          "src/main/java/net/astralvixen/steelandsakura/client/renderer/SpiritualMirrorCloneRenderer.java",
+          "src/main/java/net/astralvixen/steelandsakura/entity/SpiritualMirrorCloneEntity.java"
+        ]
+      },
+      "path": "~/Entities/Hostlie"
+    },
+    {
+      "name": "RoninEntityIsHurt",
+      "type": "procedure",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ronin_entity_is_hurt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/astralvixen/steelandsakura/procedures/RoninEntityIsHurtProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Entities/Hostlie"
+    },
+    {
+      "name": "AkaiSeal",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "akai_seal",
+      "metadata": {
+        "files": [
+          "src/main/java/net/astralvixen/steelandsakura/item/AkaiSealItem.java",
+          "src/main/resources/assets/steelandsakura/models/item/akai_seal.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "MidoriSeal",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "midori_seal",
+      "metadata": {
+        "files": [
+          "src/main/java/net/astralvixen/steelandsakura/item/MidoriSealItem.java",
+          "src/main/resources/assets/steelandsakura/models/item/midori_seal.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "AoiSeal",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aoi_seal",
+      "metadata": {
+        "files": [
+          "src/main/java/net/astralvixen/steelandsakura/item/AoiSealItem.java",
+          "src/main/resources/assets/steelandsakura/models/item/aoi_seal.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "KinSeal",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kin_seal",
+      "metadata": {
+        "files": [
+          "src/main/java/net/astralvixen/steelandsakura/item/KinSealItem.java",
+          "src/main/resources/assets/steelandsakura/models/item/kin_seal.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "YugenSeal",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yugen_seal",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/steelandsakura/models/item/yugen_seal.json",
+          "src/main/java/net/astralvixen/steelandsakura/item/YugenSealItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "YugenSealPiece",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yugen_seal_piece",
+      "metadata": {
+        "files": [
+          "src/main/java/net/astralvixen/steelandsakura/item/YugenSealPieceItem.java",
+          "src/main/resources/assets/steelandsakura/models/item/yugen_seal_piece.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "YugenSealAdvancement",
+      "type": "achievement",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yugen_seal_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/steelandsakura/advancements/yugen_seal_advancement.json"
+        ]
+      },
+      "path": "~/Advancments"
+    },
+    {
+      "name": "YugenSealRecipe",
+      "type": "recipe",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yugen_seal_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/steelandsakura/recipes/yugen_seal_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "YugenToriiGUI",
+      "type": "gui",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yugen_torii_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/astralvixen/steelandsakura/client/gui/YugenToriiGUIScreen.java",
+          "src/main/java/net/astralvixen/steelandsakura/world/inventory/YugenToriiGUIMenu.java"
+        ]
+      }
+    },
+    {
+      "name": "YugenToriiLoottable",
+      "type": "loottable",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yugen_torii_loottable",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/steelandsakura/loot_tables/gameplay/yugen_torii.json"
+        ]
+      }
+    },
+    {
+      "name": "YugenTorii",
+      "type": "structure",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yugen_torii",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/steelandsakura/worldgen/structure_set/yugen_torii.json",
+          "src/main/resources/data/steelandsakura/worldgen/structure/yugen_torii.json",
+          "src/main/resources/data/steelandsakura/worldgen/template_pool/yugen_torii.json"
+        ]
+      }
+    },
+    {
+      "name": "YugenToriiDetector",
+      "type": "procedure",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "yugen_torii_detector",
+      "metadata": {
+        "files": [
+          "src/main/java/net/astralvixen/steelandsakura/procedures/YugenToriiDetectorProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "YugenToriiEnter",
+      "type": "achievement",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yugen_torii_enter",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/steelandsakura/advancements/yugen_torii_enter.json"
+        ]
+      },
+      "path": "~/Advancments"
+    },
+    {
+      "name": "OpenToriiGUIOnKeyPressed",
+      "type": "procedure",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_torii_gui_on_key_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/astralvixen/steelandsakura/procedures/OpenToriiGUIOnKeyPressedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OpenToriiGUI",
+      "type": "keybind",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_torii_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/astralvixen/steelandsakura/network/OpenToriiGUIMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "RoninEntityDies",
+      "type": "procedure",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ronin_entity_dies",
+      "metadata": {
+        "files": [
+          "src/main/java/net/astralvixen/steelandsakura/procedures/RoninEntityDiesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Entities/Hostlie"
     }
   ],
   "variable_elements": [
+    {
+      "name": "bloodamout",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
     {
       "name": "dan",
       "type": "number",
@@ -1669,7 +2495,37 @@
       "value": "1.0"
     },
     {
+      "name": "pageNum",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "1.0"
+    },
+    {
+      "name": "pageText",
+      "type": "string",
+      "scope": "player_lifetime",
+      "value": "Blocks.AIR.defaultBlockState()"
+    },
+    {
+      "name": "pageTitle",
+      "type": "string",
+      "scope": "player_lifetime",
+      "value": "TITLE"
+    },
+    {
       "name": "recievedbook",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "nearTorii",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "last_stand",
       "type": "logic",
       "scope": "player_persistent",
       "value": "false"
@@ -1683,17 +2539,84 @@
       ],
       "category": "voice",
       "subtitle": "Yurei crying"
+    },
+    {
+      "name": "memeto_mori",
+      "files": [
+        "memento_mori"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "flute_1",
+      "files": [
+        "flute_1"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "flute_2",
+      "files": [
+        "flute_2"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "gong",
+      "files": [
+        "gong"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "seiryu_ambience",
+      "files": [
+        "seiryu_ambience"
+      ],
+      "category": "ambient",
+      "subtitle": ""
     }
   ],
   "tag_elements": {
     "BLOCKS:minecraft:needs_iron_tool": [
       "~CUSTOM:Satetsu"
     ],
+    "BLOCKS:minecraft:replaceable": [
+      "~CUSTOM:SeiryuBush"
+    ],
+    "BIOMES:minecraft:is_overworld": [
+      "CUSTOM:AmplifiedCherryGrove",
+      "CUSTOM:SeiryuGlade"
+    ],
+    "BLOCKS:minecraft:logs": [
+      "CUSTOM:SeiryuLog"
+    ],
+    "BLOCKS:minecraft:leaves": [
+      "~CUSTOM:SeiryuLeaves"
+    ],
     "BLOCKS:minecraft:mineable/pickaxe": [
       "~CUSTOM:YugenAnvil"
     ],
+    "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:SeiryuPlanks",
+      "~CUSTOM:SeiryuLog",
+      "~CUSTOM:SeiryuWood"
+    ],
+    "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:SeiryuSlab"
+    ],
+    "BLOCKS:minecraft:fences": [
+      "~CUSTOM:SeiryuFence"
+    ],
     "BLOCKS:minecraft:mineable/shovel": [
       "~CUSTOM:Satetsu"
+    ],
+    "BLOCKS:minecraft:stairs": [
+      "~CUSTOM:SeiryuStairs"
     ],
     "BIOMES:minecraft:has_structure/village_plains": [
       "~CUSTOM:AmplifiedCherryGrove"
@@ -1705,108 +2628,264 @@
       "itemGroup.tabsteel_and_sakura": "Steel \u0026 Sakura",
       "advancements.deep_cuts.title": "Deep cuts!",
       "item.steelandsakura.composite_katana": "Composite Katana",
+      "block.steelandsakura.seiryu_bush": "Seiryu Bush",
+      "item.steelandsakura.yugen_seal": "Clan Seal (Yūgen)",
+      "item.steelandsakura.yugen_seal_piece": "Yūgen Seal piece",
       "effect.steelandsakura.bleed": "Bleed",
       "entity.steelandsakura.midori_samurai": "Midori Samurai",
       "block.steelandsakura.yugen_anvil": "Yūgen Anvil",
-      "gui.steelandsakura.smp_1.label_learn_about_everything": "learn about everything",
       "entity.steelandsakura.yurei": "Yurei",
       "item.steelandsakura.yungen_katana": "Yūgen Katana",
-      "gui.steelandsakura.smp_1.label_in_this_book_youll": "In this book you\u0027ll",
       "item.steelandsakura.teke_teke_spawn_egg": "Teke Teke Spawn Egg",
       "advancements.heavy_hitter.title": "Weapon slow, damage big!",
       "entity.steelandsakura.aoi_samurai": "Aoi Samurai",
       "item.steelandsakura.kin_samurai_spawn_egg": "Kin Samurai Spawn Egg",
       "advancements.yugen_ritual.title": "Yūgen Ritual",
-      "gui.steelandsakura.smp_1.label_the_shoguns_manual": "The Shogun\u0027s Manual",
       "item.steelandsakura.tamahagane": "Tamahagane",
       "advancements.akai_hunter.descr": "Kill an Akai Samurai and get a Rune of Akai",
       "advancements.kill_oni.descr": "Kill any type of Oni",
       "advancements.aoi_huter.descr": "Kill an Aoi Samurai and get a Rune of Aoi",
-      "gui.steelandsakura.smp_3.label_them_and_their_unique": "which can deliver a",
-      "item.steelandsakura.rune_of_midori": "Rune Of Midori",
+      "block.steelandsakura.seiryu_planks": "Seiryu Planks",
+      "subtitles.flute_1": "",
+      "effect.steelandsakura.bloodlust": "Bloodlust",
       "item.steelandsakura.end_oni_spawn_egg": "Ender Oni Spawn Egg",
+      "item.steelandsakura.onryono_shogun_spawn_egg": "Onryō-no-Shogun Spawn Egg",
+      "advancements.yugen_seal_advancement.title": "Yūgen Seal",
+      "advancements.ronin_ruins.descr": "Enter a ronin\u0027s challenge area",
       "advancements.get_tatara.title": "Swordsmith speciality",
       "item.steelandsakura.oni_head_item": "Oni Head",
+      "item.steelandsakura.oni_amulet": "Oni Amulet",
       "advancements.begin_journey.descr": "Begin your journey into Steel\u0026Sakura!",
+      "subtitles.gong": "",
       "advancements.midori_hunter.title": "Midori Hunter",
       "block.steelandsakura.satetsu": "Satetsu",
+      "block.steelandsakura.seiryu_wood": "Seiryu Wood",
+      "subtitles.memeto_mori": "",
       "gui.steelandsakura.smp_1.button_items": "Items",
       "item.steelandsakura.wooden_katana": "Wooden Katana",
       "entity.steelandsakura.oni": "Oni",
+      "block.steelandsakura.seiryu_fence": "Seiryu Fence",
+      "subtitles.flute_2": "",
       "advancements.kin_hunter.descr": "Kill a Kin Samurai and get a Rune of Kin",
       "advancements.kin_hunter.title": "Kin Hunter",
       "advancements.kill_oni.title": "Oni hunter",
-      "item.steelandsakura.rune_of_kin": "Rune Of Kin",
+      "effect.steelandsakura.mizuchis_grace": "Mizuchi\u0027s Grace",
       "item.steelandsakura.heavy_katana": "Heavy Katana",
+      "block.steelandsakura.seiryu_button": "Seiryu Button",
+      "item.steelandsakura.kin_seal": "Clan Seal (Kin)",
       "item.steelandsakura.shadow_katana": "Shadow Katana",
+      "advancements.ronin_hunter.title": "Ronin Hunter",
       "biome.steelandsakura.amplified_cherry_grove": "Weeping Cherry Grove",
       "advancements.swift_slashes.descr": "Obtain a Composite Katana",
       "gui.steelandsakura.smp_1.button_entities": "Entities",
-      "gui.steelandsakura.smp_3.label_abilities_characteristics": "flaming strike.",
-      "gui.steelandsakura.smp_3.label_various_clans_have": "FIerce warriors of",
+      "entity.steelandsakura.ronin": "Ronin",
+      "gui.steelandsakura.shoguns_manual_template_gui.label_text": "text",
+      "block.steelandsakura.seiryu_pressure_plate": "Seiryu Pressure Plate",
       "item.steelandsakura.aonamino_tsurugi": "Aonami no Tsurugi",
       "block.steelandsakura.oni_head": "Oni Head (Block)",
       "item.steelandsakura.shirokami_spawn_egg": "Shirokami, the Pure Terror Spawn Egg",
+      "advancements.yugen_torii_enter.descr": "Discover a Yūgen Torii",
+      "item.steelandsakura.aoi_seal": "Clan Seal (Aoi)",
       "item.steelandsakura.yurei_spawn_egg": "Yurei Spawn Egg",
-      "gui.steelandsakura.smp_2.label_the_lands_here_you_will": "the lands. Here you will",
       "key.steelandsakura.dan_menu": "Open dan menu",
       "advancements.get_tatara.descr": "Craft a Tatara",
-      "gui.steelandsakura.smp_2.label_abilities_characteristics": "characteristics.",
-      "gui.steelandsakura.smp_2.label_the_clans": "The clans",
       "item.steelandsakura.oni_spawn_egg": "Oni Spawn Egg",
+      "advancements.yugen_seal_advancement.descr": "Craft the Yūgen Seal",
       "gui.steelandsakura.dan_gui.label_your_dan": "Your Dan",
       "item.steelandsakura.aoi_samurai_spawn_egg": "Aoi Samurai Spawn Egg",
       "block.steelandsakura.tatami": "Tatami",
+      "gui.steelandsakura.yugen_torii_gui.label_required_5": "Required: 5",
       "item.steelandsakura.the_shoguns_manual": "The Shogun\u0027s Manual",
-      "gui.steelandsakura.smp_2.label_various_clans_have": "Various clans have ruled",
       "item.steelandsakura.serrated_katana": "Serrated Katana",
-      "gui.steelandsakura.smp_1.label_stee_sakura": "Steel \u0026 Sakura",
       "subtitles.yurei": "Yurei crying",
       "advancements.deep_cuts.descr": "Obtain a Serrated Katana",
+      "block.steelandsakura.seiryu_leaves": "Seiryu Leaves",
+      "block.steelandsakura.seiryu_fence_gate": "Seiryu Fence Gate",
       "advancements.heavy_hitter.descr": "Obtain a Heavy Katana",
-      "gui.steelandsakura.smp_3.label_the_clans": "The Akai Clan",
-      "gui.steelandsakura.smp_3.label_the_lands_here_you_will": "Kagutsuchi, they weild",
       "advancements.yugen_ritual.descr": "Preform any Yūgen Ritual using the Yūgen Anvil ",
       "item.steelandsakura.iron_katana": "Katana",
       "advancements.aoi_huter.title": "Aoi Hunter",
       "entity.steelandsakura.teke_teke": "Teke Teke",
+      "subtitles.seiryu_ambience": "",
       "gui.steelandsakura.smp_1.button_blocks": "Blocks",
       "item.steelandsakura.midorino_seishin": "Midori no Seishin",
       "item.steelandsakura.shinkuno_hono": "Shinku no Honō",
       "item.steelandsakura.koganeno_kage": "Kogane no Kage",
       "item.steelandsakura.spirit_essence": "Spirit Essence",
-      "item.steelandsakura.rune_of_aoi": "Rune Of Aoi",
       "gui.steelandsakura.tatara_gui.label_heat": "heat",
+      "block.steelandsakura.seiryu_stairs": "Seiryu Stairs",
+      "key.steelandsakura.open_torii_gui": "Open the Yūgen Torii\u0027s menu if near it.",
+      "advancements.yugen_torii_enter.title": "The Sacred Torii",
+      "item.steelandsakura.ronin_spawn_egg": "Ronin Spawn Egg",
       "item.steelandsakura.frost_oni_spawn_egg": "Frost Oni Spawn Egg",
+      "item.steelandsakura.midori_seal": "Clan Seal (Midori)",
+      "entity.steelandsakura.spiritual_mirror_clone": "Spiritual Mirror Clone",
       "advancements.begin_journey.title": "Steel \u0026 Sakura",
+      "block.steelandsakura.seiryu_slab": "Seiryu Slab",
       "entity.steelandsakura.kin_samurai": "Kin Samurai",
-      "item.steelandsakura.rune_of_akai": "Rune Of Akai",
       "advancements.yungen_anvil.descr": "Obtain a Yūgen Anvil",
       "item.steelandsakura.akai_samurai_spawn_egg": "Akai Samurai Spawn Egg",
       "advancements.get_tamahagane.descr": "Obtain a tamahagane ingot!",
-      "gui.steelandsakura.smp_3.label_be_introduced_to_all_of_them": "powerul, firery blades",
       "advancements.get_satetsu.descr": "Obtain Satetsu aka ironsand!",
+      "advancements.ronin_hunter.descr": "Defeat a Ronin",
+      "item.steelandsakura.akai_seal": "Clan Seal (Akai)",
       "advancements.midori_hunter.descr": "Kill a Midori Samurai and get a Rune of Midori",
       "gui.steelandsakura.tatara_gui.label_tatara": "Tatara",
       "advancements.akai_hunter.title": "Akai Hunter",
       "entity.steelandsakura.end_oni": "Ender Oni",
       "block.steelandsakura.tatara": "Tatara",
       "gui.steelandsakura.yungen_gui.label_yugen_anvil": "Yūgen Anvil",
-      "gui.steelandsakura.smp_2.label_be_introduced_to_all_of_them": "be introduced to all of",
       "advancements.get_katana.title": "The sword of samurai",
+      "gui.steelandsakura.yugen_torii_gui.label_the_sacred_torii": "The Sacred Torii",
       "advancements.swift_slashes.title": "Swift slashes!",
       "advancements.get_katana.descr": "Obtain a Katana",
       "item.steelandsakura.midori_samurai_spawn_egg": "Midori Samurai Spawn Egg",
       "entity.steelandsakura.frost_oni": "Frost Oni",
-      "gui.steelandsakura.smp_2.label_them_and_their_unique": "them, and their unique",
       "entity.steelandsakura.akai_samurai": "Akai Samurai",
+      "entity.steelandsakura.onryono_shogun": "Onryō-no-Shogun",
       "item_group.steelandsakura.steel_and_sakura": "Steel \u0026 Sakura",
       "biome.steelandsakura.seiryu_glade": "Seiryu Glade",
+      "gui.steelandsakura.yugen_torii_gui.label_various_rewards_and": "various rewards and boosts!",
+      "gui.steelandsakura.yugen_torii_gui.label_offer_yugen_clan_seals": "Offer Yūgen clan seals to get",
       "advancements.yungen_anvil.title": "Yūgen Anvil",
+      "gui.steelandsakura.shoguns_manual_template_gui.label_title": "TITLE",
+      "block.steelandsakura.seiryu_log": "Seiryu Log",
       "item.steelandsakura.icon": "Icon",
+      "advancements.ronin_ruins.title": "Ronin Ruins",
       "advancements.get_satetsu.title": "From Dust to Blade!",
-      "advancements.get_tamahagane.title": "Steel of the warrior",
-      "gui.steelandsakura.smp_1.label_related_to_steel_sakura": "related to:"
+      "advancements.get_tamahagane.title": "Steel of the warrior"
+    },
+    "hu_hu": {
+      "entity.steelandsakura.shirokami": "Shirokami, the Pure Terror",
+      "itemGroup.tabsteel_and_sakura": "Steel \u0026 Sakura",
+      "advancements.deep_cuts.title": "Mély vágások!",
+      "item.steelandsakura.composite_katana": "Composite Katana",
+      "block.steelandsakura.seiryu_bush": "Seiryu Bush",
+      "item.steelandsakura.yugen_seal": "Clan Seal (Kin)",
+      "item.steelandsakura.yugen_seal_piece": "Clan Seal (Yūgen)",
+      "effect.steelandsakura.bleed": "Bleed",
+      "entity.steelandsakura.midori_samurai": "Midori Samurai",
+      "block.steelandsakura.yugen_anvil": "Yūgen Anvil",
+      "entity.steelandsakura.yurei": "Yurei",
+      "item.steelandsakura.yungen_katana": "Yūgen Katana",
+      "item.steelandsakura.teke_teke_spawn_egg": "Teke Teke Spawn Egg",
+      "advancements.heavy_hitter.title": "Fegyver lassú, sebzés nagy",
+      "entity.steelandsakura.aoi_samurai": "Aoi Samurai",
+      "item.steelandsakura.kin_samurai_spawn_egg": "Kin Samurai Spawn Egg",
+      "advancements.yugen_ritual.title": "Yūgen Ritual",
+      "item.steelandsakura.tamahagane": "Tamahagane",
+      "advancements.akai_hunter.descr": "Ölj meg egy Akai szamurájt és szerezz meg egy Akai Rúnát",
+      "advancements.kill_oni.descr": "Ölj meg bármilyen fajta Onit!",
+      "advancements.aoi_huter.descr": "Ölj meg egy Akai szamurájt és szerezz meg egy Akai Rúnát",
+      "block.steelandsakura.seiryu_planks": "Seiryu Planks",
+      "subtitles.flute_1": "",
+      "effect.steelandsakura.bloodlust": "Bloodlust",
+      "item.steelandsakura.end_oni_spawn_egg": "Ender Oni Spawn Egg",
+      "item.steelandsakura.onryono_shogun_spawn_egg": "Shirokami, the Pure Terror Spawn Egg",
+      "advancements.yugen_seal_advancement.title": "Ronin Hunter",
+      "advancements.ronin_ruins.descr": "Enter a ronin\u0027s challenge area",
+      "advancements.get_tatara.title": "Kardkovács specialitása!",
+      "item.steelandsakura.oni_head_item": "Oni Head",
+      "item.steelandsakura.oni_amulet": "Oni Amulet",
+      "advancements.begin_journey.descr": "Kezd el a kalandod a Steel \u0026 Sakura világában!",
+      "subtitles.gong": "",
+      "advancements.midori_hunter.title": "Midori Hunter",
+      "block.steelandsakura.satetsu": "Satetsu",
+      "block.steelandsakura.seiryu_wood": "Seiryu Wood",
+      "subtitles.memeto_mori": "",
+      "gui.steelandsakura.smp_1.button_items": "Items",
+      "item.steelandsakura.wooden_katana": "Wooden Katana",
+      "entity.steelandsakura.oni": "Oni",
+      "block.steelandsakura.seiryu_fence": "Seiryu Fence",
+      "subtitles.flute_2": "",
+      "advancements.kin_hunter.descr": "Kill a Kin Samurai and get a Rune of Kin",
+      "advancements.kin_hunter.title": "Kin Hunter",
+      "advancements.kill_oni.title": "Oni vadász!",
+      "effect.steelandsakura.mizuchis_grace": "Mizuchi\u0027s Grace",
+      "item.steelandsakura.heavy_katana": "Heavy Katana",
+      "block.steelandsakura.seiryu_button": "Seiryu Button",
+      "item.steelandsakura.kin_seal": "Rune Of Kin",
+      "item.steelandsakura.shadow_katana": "Shadow Katana",
+      "advancements.ronin_hunter.title": "Ronin Ruins",
+      "biome.steelandsakura.amplified_cherry_grove": "Weeping Cherry Grove",
+      "advancements.swift_slashes.descr": "Obtain a Composite Katana",
+      "gui.steelandsakura.smp_1.button_entities": "Entities",
+      "entity.steelandsakura.ronin": "Akai Samurai",
+      "gui.steelandsakura.shoguns_manual_template_gui.label_text": "text",
+      "block.steelandsakura.seiryu_pressure_plate": "Seiryu Pressure Plate",
+      "item.steelandsakura.aonamino_tsurugi": "Aonami no Tsurugi",
+      "block.steelandsakura.oni_head": "Oni Head (Block)",
+      "item.steelandsakura.shirokami_spawn_egg": "Shirokami, the Pure Terror Spawn Egg",
+      "advancements.yugen_torii_enter.descr": "Discover a Yūgen Torii",
+      "item.steelandsakura.aoi_seal": "Rune Of Aoi",
+      "item.steelandsakura.yurei_spawn_egg": "Yurei Spawn Egg",
+      "key.steelandsakura.dan_menu": "Open dan menu",
+      "advancements.get_tatara.descr": "Készíts egy tatarát!",
+      "item.steelandsakura.oni_spawn_egg": "Oni Spawn Egg",
+      "advancements.yugen_seal_advancement.descr": "Defeat a Ronin",
+      "gui.steelandsakura.dan_gui.label_your_dan": "Your Dan",
+      "item.steelandsakura.aoi_samurai_spawn_egg": "Aoi Samurai Spawn Egg",
+      "block.steelandsakura.tatami": "Tatami",
+      "gui.steelandsakura.yugen_torii_gui.label_required_5": "Required: 5",
+      "item.steelandsakura.the_shoguns_manual": "The Shogun\u0027s Manual",
+      "item.steelandsakura.serrated_katana": "Serrated Katana",
+      "subtitles.yurei": "Yurei crying",
+      "advancements.deep_cuts.descr": "Szerezz egy recés katanát!",
+      "block.steelandsakura.seiryu_leaves": "Seiryu Leaves",
+      "block.steelandsakura.seiryu_fence_gate": "Seiryu Fence Gate",
+      "advancements.heavy_hitter.descr": "Szerezz egy Nehéz Katanát",
+      "advancements.yugen_ritual.descr": "Preform any Yūgen Ritual using the Yūgen Anvil ",
+      "item.steelandsakura.iron_katana": "Katana",
+      "advancements.aoi_huter.title": "Aoi Vadász",
+      "entity.steelandsakura.teke_teke": "Teke Teke",
+      "subtitles.seiryu_ambience": "",
+      "gui.steelandsakura.smp_1.button_blocks": "Blocks",
+      "item.steelandsakura.midorino_seishin": "Midori no Seishin",
+      "item.steelandsakura.shinkuno_hono": "Shinku no Honō",
+      "item.steelandsakura.koganeno_kage": "Kogane no Kage",
+      "item.steelandsakura.spirit_essence": "Spirit Essence",
+      "gui.steelandsakura.tatara_gui.label_heat": "heat",
+      "block.steelandsakura.seiryu_stairs": "Seiryu Stairs",
+      "key.steelandsakura.open_torii_gui": "Open the Yūgen Torii\u0027s menu if near it.",
+      "advancements.yugen_torii_enter.title": "The Sacred Torii",
+      "item.steelandsakura.ronin_spawn_egg": "Akai Samurai Spawn Egg",
+      "item.steelandsakura.frost_oni_spawn_egg": "Frost Oni Spawn Egg",
+      "item.steelandsakura.midori_seal": "Rune Of Midori",
+      "entity.steelandsakura.spiritual_mirror_clone": "Spiritual Mirror Clone",
+      "advancements.begin_journey.title": "Steel \u0026 Sakura",
+      "block.steelandsakura.seiryu_slab": "Seiryu Slab",
+      "entity.steelandsakura.kin_samurai": "Kin Samurai",
+      "advancements.yungen_anvil.descr": "Obtain a Yūgen Anvil",
+      "item.steelandsakura.akai_samurai_spawn_egg": "Akai Samurai Spawn Egg",
+      "advancements.get_tamahagane.descr": "Szerezz egy tamahagane rudat!",
+      "advancements.get_satetsu.descr": "Szeret Satetsu-t azaz vashomokot!",
+      "advancements.ronin_hunter.descr": "Enter a ronin\u0027s challenge area",
+      "item.steelandsakura.akai_seal": "Rune Of Akai",
+      "advancements.midori_hunter.descr": "Kill a Midori Samurai and get a Rune of Midori",
+      "gui.steelandsakura.tatara_gui.label_tatara": "Tatara",
+      "advancements.akai_hunter.title": "Akai Vadász",
+      "entity.steelandsakura.end_oni": "Ender Oni",
+      "block.steelandsakura.tatara": "Tatara",
+      "gui.steelandsakura.yungen_gui.label_yugen_anvil": "Yūgen Anvil",
+      "advancements.get_katana.title": "A szamurájok kardja",
+      "gui.steelandsakura.yugen_torii_gui.label_the_sacred_torii": "The Sacred Torii",
+      "advancements.swift_slashes.title": "Swift slashes!",
+      "advancements.get_katana.descr": "Szerezz egy katanát!",
+      "item.steelandsakura.midori_samurai_spawn_egg": "Midori Samurai Spawn Egg",
+      "entity.steelandsakura.frost_oni": "Frost Oni",
+      "entity.steelandsakura.akai_samurai": "Akai Samurai",
+      "entity.steelandsakura.onryono_shogun": "Shirokami, the Pure Terror",
+      "item_group.steelandsakura.steel_and_sakura": "Steel \u0026 Sakura",
+      "biome.steelandsakura.seiryu_glade": "Seiryu Glade",
+      "gui.steelandsakura.yugen_torii_gui.label_various_rewards_and": "various rewards and boosts!",
+      "gui.steelandsakura.yugen_torii_gui.label_offer_yugen_clan_seals": "Offer Yūgen clan seals to get",
+      "advancements.yungen_anvil.title": "Yūgen Anvil",
+      "gui.steelandsakura.shoguns_manual_template_gui.label_title": "TITLE",
+      "block.steelandsakura.seiryu_log": "Seiryu Log",
+      "item.steelandsakura.icon": "Icon",
+      "advancements.ronin_ruins.title": "Ronin Ruins",
+      "advancements.get_satetsu.title": "Pórból pengéig+",
+      "advancements.get_tamahagane.title": "Harcos acélja!"
     }
   },
   "foldersRoot": {
@@ -1862,7 +2941,7 @@
   "workspaceSettings": {
     "modid": "steelandsakura",
     "modName": "Steel \u0026 Sakura",
-    "version": "1.2.0",
+    "version": "1.3.0",
     "description": "Step into a world where cherry blossoms bloom amidst dark secrets, and spirits linger in the shadows. Master the art of Katana forging, challenge fearsome onis, and uncover the secrets of the Yūgen Clan. Whether you\u0027re a samurai at heart or simply love the beauty of cherry blossoms, this mod has something for you.",
     "author": "AstralVixen",
     "websiteURL": "https://astralrealm.web.app",

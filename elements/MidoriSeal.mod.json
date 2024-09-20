@@ -3,11 +3,11 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "rune_of_akai",
+    "texture": "rune_of_midori",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Rune Of Akai",
+    "name": "Clan Seal (Midori)",
     "rarity": "UNCOMMON",
     "creativeTab": {
       "value": "CUSTOM:SteelAndSakura"

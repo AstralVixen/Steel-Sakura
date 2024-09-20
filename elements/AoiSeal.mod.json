@@ -3,11 +3,11 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "rune_of_kin",
+    "texture": "rune_of_aoi",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Rune Of Kin",
+    "name": "Clan Seal (Aoi)",
     "rarity": "UNCOMMON",
     "creativeTab": {
       "value": "CUSTOM:SteelAndSakura"

@@ -1,0 +1,23 @@
+{
+  "_fv": 60,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Bloodlust",
+    "icon": "bloodlust.png",
+    "color": {
+      "value": -13434880,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": true,
+    "isBenefitical": true,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onActiveTick": {
+      "name": "BloodLustOnEffectActiveTick"
+    },
+    "onExpired": {
+      "name": "BloodlustEffectExpires"
+    }
+  }
+}

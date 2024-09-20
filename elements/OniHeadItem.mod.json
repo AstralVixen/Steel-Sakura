@@ -2,9 +2,9 @@
   "_fv": 60,
   "_type": "item",
   "definition": {
-    "renderType": 1,
+    "renderType": 0,
     "texture": "oni_head",
-    "customModelName": "onihead:default",
+    "customModelName": "Normal",
     "customProperties": {},
     "states": [],
     "name": "Oni Head",

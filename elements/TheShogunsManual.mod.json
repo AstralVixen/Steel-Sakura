@@ -34,7 +34,7 @@
     "glowCondition": {
       "fixedValue": false
     },
-    "guiBoundTo": "<NONE>",
+    "guiBoundTo": "ShogunsManualTemplateGUI",
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "onRightClickedInAir": {

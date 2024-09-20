@@ -3,12 +3,12 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "rune_of_midori",
+    "texture": "yugenseal",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Rune Of Midori",
-    "rarity": "UNCOMMON",
+    "name": "Clan Seal (Yūgen)",
+    "rarity": "EPIC",
     "creativeTab": {
       "value": "CUSTOM:SteelAndSakura"
     },

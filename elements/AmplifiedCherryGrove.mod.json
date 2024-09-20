@@ -40,24 +40,24 @@
     "spawnInCaves": false,
     "spawnBiomeNether": false,
     "genTemperature": {
-      "min": -3.0000000000000003E-4,
+      "min": 0.2,
       "max": 0.6016
     },
     "genHumidity": {
-      "min": 0.20359999999999998,
-      "max": 0.9035
+      "min": -0.10490000000000001,
+      "max": 0.6979
     },
     "genContinentalness": {
-      "min": 0.1014,
-      "max": 0.7015
+      "min": 0.0,
+      "max": 0.4789
     },
     "genErosion": {
-      "min": -0.30419999999999997,
-      "max": 0.39990000000000003
+      "min": -0.059300000000000005,
+      "max": 0.4795
     },
     "genWeirdness": {
-      "min": -0.3,
-      "max": 0.7
+      "min": -1.0,
+      "max": 1.0
     },
     "treesPerChunk": 3,
     "vanillaTreeType": "Mega spruce trees",
@@ -76,7 +76,6 @@
       "value": "Blocks.AIR"
     },
     "defaultFeatures": [
-      "Caves",
       "Ores",
       "AmethystGeodes"
     ],
